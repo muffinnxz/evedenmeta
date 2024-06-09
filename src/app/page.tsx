@@ -22,6 +22,7 @@ export default function Home() {
                 alt="Discord Logo"
                 width={20}
                 height={20}
+                className="invert-0 dark:invert"
               />
               <TypographySmall>Join us on Discord</TypographySmall>
             </div>

@@ -42,7 +42,7 @@ export default function HomeLayout({ children }: LayoutProps) {
                     alt="Google Logo"
                     width={20}
                     height={20}
-                    className="invert"
+                    className="invert dark:invert-0"
                   />
                   <TypographySmall>Continue with Google</TypographySmall>
                 </Button>
