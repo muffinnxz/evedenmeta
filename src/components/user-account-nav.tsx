@@ -37,10 +37,10 @@ export function UserAccountNav({ user, userData }: UserAccountNavProps) {
             )}
           </div>
         </div>
-        <DropdownMenuSeparator />
+        {/* <DropdownMenuSeparator />
         <DropdownMenuItem asChild>
           <Link href="/settings">Settings</Link>
-        </DropdownMenuItem>
+        </DropdownMenuItem> */}
         <DropdownMenuSeparator />
         <DropdownMenuItem className="cursor-pointer" onSelect={signOut}>
           Sign out
