@@ -3,7 +3,8 @@ import { Card, CardType, Faction, Product, Rarity } from "@/interfaces/card";
 export const cards: Card[] = [
   {
     id: "ST01-001",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXlZmslPzHQuBtTYOywt9EHFl0A6OV2KbVRT89-uVEnYy277KZEYWEppGyxxNd9RHAXk-Ke8aNvEbFq9MSa9tXmYaCs5SO1FAo0pLaUdJBkRPOpArZEaJNDHMU78IafR4VFHfGEz8l_F4JJ5Jd-4SLtn69NRS8zcQ1aKvoRHbv9lUg25J_KyAVYM3-zKIrrUeVbxpgTFC0eIDrOxYTwORcxuWCsCI7s2bMvDCucrL6w7nuhGqwkbVSlqAaUK-df=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.CHAMPION,
     name: "Lancelot",
@@ -14,8 +15,8 @@ export const cards: Card[] = [
     product: Product.ST01,
     rarity: Rarity.RARE,
     nano: 3,
-    attack: 5000.0,
-    defense: 14000.0,
+    attack: 5000,
+    defense: 14000,
     direction: {
       north: false,
       northeast: false,
@@ -29,7 +30,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-002",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXz5suygeIgzch6vyk8jR0Hrqk6lmCdtOcWOGhps7Xi4cCTdUr5PEjda6c6-LRse-k9wC55pvqhqO70fsihEimMWsv3fwGAVIOrDNxLsPsxn_q48M1T8p8UMKo83fRwliONZRyJCnc27-KNG1V3gBqaP1rLvHFqop3nNQTdy8R31eOwOLp8UJpQIozBiP1TvMK22wQBCT-p3Fq80X5k61AbMr4WmLvP-_rx8Ggf0t7Uftqh36MSwRz3uFF-WpmW7g=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Felix De Corbenic",
@@ -38,8 +40,8 @@ export const cards: Card[] = [
     product: Product.ST01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: false,
       northeast: true,
@@ -53,7 +55,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-003",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUtYLCs-bp_pHD17orhgco-XiWuYv7dDdLH1GLfjljJ5--evBn3pEx8MHM664WVNForP_gybrUhBbvzVOSAbVaMin2rW5XlxWvjAiSBUqniDXSwXwnnv423xyPc1MtPWDC1AOYIZmcGZwvY17lbhtkoiwMI67fbW_zMKQ3-bSN6sWMrEh2Y_idSsE02VMnOnOwXj5_krMwqQaqfCRuRM6AyhOIIAUDsVZgSneE1JYR931bS8ltv4FipBWucXSPIwQ=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Calian Rience",
@@ -62,8 +65,8 @@ export const cards: Card[] = [
     product: Product.ST01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: false,
       northeast: false,
@@ -77,7 +80,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-004",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUtCDU4t-wMgDBPl5thayxX3OTN4spbVtwbyTZzQmKA_i46d2LYqI9MAEx9xnW0fA451Ch_od-FcFbERVzfpKSjDIINgnyPnImXK6HNH6ZIp-_HHbk-nthky5KqksmuRtI9V-OrtTGB5Eey29AiQ7-u2W71FMXXyyZ7UDu4ZxoRqvBjdrxCRtX3R9meP-As6dA-qjDcwArZgQiro5qEOYOig2p09GlBnjGxCjP5hl7Led6q_2Ucm5ZmrmEh1ypR=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.SENTINEL_TECH,
     name: "Conqueror of the Arena",
@@ -101,7 +105,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-005",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUlra4BEcxQk_Z_bkhnxuxS_uuLuPgB2GDwaD_uhu4qJQzC6A4Y_-BunW2OZdmcJqkwS4VX0v11o2NIyEwBBszLUKvIUrm5Oi1bH_66BSL2HAFmzMn2HVwziq7TcinencRUWzRuo5Gs58ddJ1B3KjlKmShdEat6Nl-eRTJx5wcfkL1CN9LUNM4aWpjJtcXUUcihwU0u_XzBPGbNLicMaBUU8bCMF6G19ljLGuck22Ua7Xv5DAvrI0u1VMHsOtB-7Q=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.SENTINEL_TECH,
     name: "Sense of De Benoic",
@@ -125,7 +130,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-006",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWn97vePXUOfssDuzNdLjXFLBrHxDEEAXCxIxyg8k3xTTOdkUA-BTvKi4Y3YUGMTGf2HKX91mpTiAhJg0cvHNFUaxtjEkgn5geHm5zOQ055T4CfnvOa_pYlbnLBWBflOHKTzN-CD4rfqbr3AXn0fp9gKaw8VbvgD6o4SnL2-9O4L7vlYUMj6THTvwPyTQpSLDLiRN1Z-uEVJx1-DZpcyujLti4OraIm_avrprXLdRsxm1A7_-bixKyd4CjAUffVJA=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Bow Assasin",
@@ -134,8 +140,8 @@ export const cards: Card[] = [
     product: Product.ST01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 4000.0,
-    defense: 8000.0,
+    attack: 4000,
+    defense: 8000,
     direction: {
       north: false,
       northeast: false,
@@ -149,7 +155,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-007",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUG8y9cz2NQUpftYsfafCjDitDa0hL-Y3KV3CosKSupKYRtsKIkhLhk33s63e7NpmrdkJbXkXBx7NrTWTyEF9ophWWAVq3BbQtpLaPnhDAzbuBI9kFaK_NRNza-dyhXutpDr4kqXev8JndMUP6mn9IBGowaTY6eTC5fJ4mFPjo4drs9KJpD8dzclFWk85Gl7SxSY0kDjaN8etZedqAIJWF-z52o7PyMTcK0YS8V3iLGnXeW-JWtNMs7rscdi5cgkA=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Corner Thief",
@@ -158,8 +165,8 @@ export const cards: Card[] = [
     product: Product.ST01,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 4000.0,
-    defense: 8000.0,
+    attack: 4000,
+    defense: 8000,
     direction: {
       north: false,
       northeast: false,
@@ -173,7 +180,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-008",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVzxc1XQiDZih4jT_lmmsl5BuvuK8gPZxH7Hw8k7Qy12Efh0MrWcKBEC75PCyDpiMzSDmD7gh6OdGB4JUvWN2pC7KUckQLNQNbBxPfyhz6DE-YwUMH6MgP3X7qfmORxWjpYlj8pKsw-CuOaxVQyqLOzHCtjc8wUXYXTOA2K0S09jxLYrSImAC4OMPr2bWoXj7_qQBymrdo_vJb6jN0EXdk21K9Vv0iVlLWG1uJ_sRQ6lDM8xZNuWCojsht91CNW=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Elysium Crime Lady",
@@ -182,8 +190,8 @@ export const cards: Card[] = [
     product: Product.ST01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: true,
       northeast: false,
@@ -197,7 +205,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-009",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWdQRM9xl6P8wzUAq2uTeXRVNAUe62zMGgukYPP2ViVvzrNOK9yPiIfShYw3LbbnRHKiAwcl_8x3J-vjKfFgqIm5q8VwiWICcD-CVWAa7UrLiLpMRSEiDFGn6cPuWBdYOiftJOSppLa2g2lpKT3YI4-T87ngsLVCBV6xBAzG_CQbv2cXdYueVu2BlVeovJ8CP7mn7ZyetJidbG-54znMOHBfIWQFP-MAclmidQOdrwXvctb2xxDbtlV9NqaOZv8EA=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Elysium Hawker",
@@ -206,8 +215,8 @@ export const cards: Card[] = [
     product: Product.ST01,
     rarity: Rarity.MAJESTIC,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: false,
       northeast: true,
@@ -221,7 +230,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-010",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU5aJ1rUoxcV0bAOv5p2JN_4BEZskLpbBRNDzhljJRf4on6cUJLizbxW7GKCYaaPhJVZXBcopuCwnvgZOOfvEoiI6Ecsa-6irp-VzmRzU0aVQb_IWAbb0ml6yZviNXgiK1s613YhE_Cv-D19Pmyf9ROFZiML5wktwWhuHlopl5Zo5PvvAhJHftSnparAj3_db98w-kKR-a0Fiea9-A9flowoXTXeituGbSwWp4RZ9IpND6G6d8nBiT3p3P6ELATcA=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Elysium Peddler",
@@ -230,8 +240,8 @@ export const cards: Card[] = [
     product: Product.ST01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: false,
@@ -245,7 +255,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-011",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXXo6Y75oAopeutSgBiRK3CLJogi-jGE5ilSKT1hH0pW0bCwObMuQ9N13Naug7FUzOL-VQpa0zO_lP1A5MvKOWmgOrrxSJE4wb-Xf3t1-UZrh4_-0G2_EheLg_MLpzeJAHwHn11ky_3n5eaPSSmkN-43CYocbKYeyMJalmZOTuqxi-gNQmxozN6iqUOoK-5bQLrnGreRNOH5GEBPtxK0yW6Obrpf_epJxtmWGMyuDnMa27bCRnGKKR0ndBBQhKL0A=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Meat Merchant",
@@ -254,8 +265,8 @@ export const cards: Card[] = [
     product: Product.ST01,
     rarity: Rarity.COMMON,
     nano: 3,
-    attack: 4000.0,
-    defense: 10000.0,
+    attack: 4000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: true,
@@ -269,7 +280,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-012",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXD7bd8wq6dctkqZ8vY1B6hMHEW5cR1X3o0Gdszw_RoGsO56A0Ln7kDl9LIJ4TyhouSdeJu0UIOvM9EXKlQKJgy2pfMeZkHy6gVV0RKaCE1V0fjhg5r-KRYLnKzlPbd6VOlXrfUTld61nhb71fyfGDE-S1F-qttMROqa8fCPtExTFaw2m3PJ9_IsjHk5n0BddnhQywacuZkfaeMqi7JuF3FUuVME769d1_H0RGIqXUKToJQY-cInVe2ElTT3im4-A=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Stylish Gambler",
@@ -278,8 +290,8 @@ export const cards: Card[] = [
     product: Product.ST01,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 2000.0,
-    defense: 8000.0,
+    attack: 2000,
+    defense: 8000,
     direction: {
       north: false,
       northeast: false,
@@ -293,7 +305,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-013",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVcYmjg1r3x2Bn_i-QKy1MTJiGq1QFtviOwXFvAsKSVj_5V9LqhRmzJOd2_KlcOXZJGipHbRgWbqIdUf4zQtPOPy-PbL4syV0eWDl0Alld_AXaoA_-VvJUzzeH179a19OoBhl1vfguF13kDfn5MsR53GHpoPsQxyT2QbhyMqzOg_nPHzBG7EKz8hPRorAonL1aLUVGeB8GJmgTvMsY-TzaeJ0dl974kZf3KKHGBF0xx4HlOJwKQR6K_F8rB2wXf1w=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Elysium Ruffian",
@@ -302,8 +315,8 @@ export const cards: Card[] = [
     product: Product.ST01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: false,
@@ -317,7 +330,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-014",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWUonI3Fa7Wer9Zmlobf_fYhX15w4_SV5cKrftuISc4TfNk8mDwdzb1JqtKoykgLILAr0SUk6DwMo-8CV32JPR7_pqmiMaNmvONjxDbmmsf1YBcRC-PfgX1UK-yIIdkTm_0VbVI-xyE8HSG0Q8S03kGpvfB9MwMjEWFowlPosIkFYUI5nZDSpRnU1kyYZ4fTLhTRf3yAcbkSPTjpXOHKV2XyaLfDcDXgHaY20IBOzYb6BptjB8LxQsEXT5COtrFRA=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.FOLLOWER,
     name: "Cruel Chimera",
@@ -326,8 +340,8 @@ export const cards: Card[] = [
     product: Product.ST01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 5000.0,
-    defense: 10000.0,
+    attack: 5000,
+    defense: 10000,
     direction: {
       north: true,
       northeast: false,
@@ -341,7 +355,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-015",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWI1eBVehLhdvs4lkQG2JElnDZ1VFntSpHoJ6l-RWiWv0OItgLw-n9rqANuB--il9ecNwJr81eKqvMakroUPABcLgaxdGd64pPiPy5NmdHiZXJ09gK3SC-Y3T-A7dTahjhxNtW0JbWUxtu2B7BlL3DFxGYBva_i_zWCPa6f9Z8xB1TuJzJHvDH9UbJ4M_PhjQqHmxg-sZzi-0Kr82z0sRTBTex31HeX7YN09YWnhdT4uGpSEp3jgvkfEDWTSN6O0w=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.FOLLOWER,
     name: "Experiment R-004",
@@ -350,8 +365,8 @@ export const cards: Card[] = [
     product: Product.ST01,
     rarity: Rarity.MAJESTIC,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: true,
@@ -365,7 +380,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-016",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xW9CS2dJdebyxwjSYHqHLTBdLoXSC32koPXm1ukcw1VAzeLxn9YGG7Fo7wtq31KngpP0cRkNnUblRKeuCAJQrGZBD8Hnl8aMzcw6Dv7JTObmWjxVoVO17RpRQYbpVp3yvwb82K1lzsK1XAkT3vTtkzTUY8KWAZzSm8Hskk5bBgE_aKUuSEO4Nn8jmbt9SUBo73_owfd4m_MQClftcUJfzCyasKmF6xp-d50Kdo4vVW5CNG1RCc9dD9BHDysGMISlw=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.FOLLOWER,
     name: "Winged Ogre",
@@ -374,8 +390,8 @@ export const cards: Card[] = [
     product: Product.ST01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 4000.0,
-    defense: 10000.0,
+    attack: 4000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: false,
@@ -389,7 +405,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-017",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXiZcsq2uKxkrAEo1bBK5Y32aA5HdMWIBpUNgA6XndTYJ8ADbcQ2zdwLy7RkHoxLofq5Jrr1IDYkEhjfUfIBUGuMpdrUGnN7AlIp6SjhVx7A6DGa6FONahPmwlBxACkE9U54t--hr2sy0t9Oh6Bvchru8Zet202psjuNyp3IdNhedmEH3d23jd1_PIljnmlmvYdFCaBuT9-Lpnd39BklXcjv6l-kB0CMwx8Jt7rat2yB-pJf8Lnx2nDK8N07mVIWw=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.TECH,
     name: "Back to Back",
@@ -413,7 +430,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-018",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWovXIbBlkoUQgdSfWZiqgVWzWSEnFhrwehG-_R6Zih7kIb01RJrdsb9-CKaNKise_Re4mUPUK7RopHqltnlBpvUpeyR0QjRrxS3BKL-NG5zksjVqLie5xJryXi8tznGIoakKkKNPt6vlg43FA7SYKLOhR9uEePs4A1udBT01Lm2F9spxnaCxgc5ufFaHyjdUCu6e0EGnEq5BFhfvAE5gGn6yXRYxYTOPImfhdSAHP3-kmUFcNMUsYW0UGAHm42pg=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.TECH,
     name: "Capturing",
@@ -437,7 +455,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-019",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xV7-RQgQq9i9RM8i1I88hsB7v3KH9LnccEUDYM3xQkmj2wcfwELMhnggeveOFiFYQNUghI8B9ng-aptHSZexN90n8_AGJNAZS5epexIXMqJIulqQ0pO5RAOxO-aIDzW-CMZJHf-NucFyeSxgKultFMZkoKmamlugbub-gsgizuB69s0zOc0a31L6myXqY7501QH_MbA7FW1NzQ6y9ASW2VLxBcnlf0F6Tu-rp5RfYwyQ95s-zX7FVuMmhYKes1iug=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.TECH,
     name: "Death Guard",
@@ -462,7 +481,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST01-020",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xW1zql3_Jiddb18RQ8STfE-KSgHWFGSMpM2I4O9dQoNIxXdIBQoL1xMV1SKwQ435D5FwjjJvMsjaHoObkIG7o7tlJuiYDaArzdskZhPo2MsQsPJ0wx1UCrmrEQieUBBUlRaNxjxsPQpf9iw7rD_V_GFPk5hjc49D-AYWOGnc25ZWvNZiRxT0nI_kI8xyILLGJCjpLw4svKJd9P2-kAcTbYOiX0fg_9tyJ2buGgBwCbGqUuMC4a_3qz2qJ7GMrSqgA=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.TECH,
     name: "Underground Bunker",
@@ -487,7 +507,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-001",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWFWLrMT6qOe4pe-6PLWhwVHS7P38SxRiANXD-dTGMMrWV-sicyasGFTVxWwdklE7fmbi7MkJdaU1HW3OEmBOr6juvnb6nLPtk6zolU-KtJcJJgcSr02Vz6HJ-uNTpbivIvRBwcdxTRNgpMvS1SZ_OjIUAy_9csjeXxOMSgptgjjT7R4Ce_XUETTw942pjzpnp0qOa1soqCu1sgUH1PoeOuURSHys4t2jENg_Yb21GG3wI629JOt6FFwH9-tm1qYkf_wg=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.CHAMPION,
     name: "Leviathan",
@@ -498,8 +519,8 @@ export const cards: Card[] = [
     product: Product.ST02,
     rarity: Rarity.RARE,
     nano: 3,
-    attack: 5000.0,
-    defense: 14000.0,
+    attack: 5000,
+    defense: 14000,
     direction: {
       north: true,
       northeast: false,
@@ -513,7 +534,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-002",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXst3pVi7Kc0UkjuUV4FHCSCrh8HJDciPL5GW1WhS2A_6n2s1ZulNsnxx13Gev_jA1B6_xZlnO3cxznGDYb6GntrQ70A3eb7UcL2GU9ofQkNB6AYz6JeBLjLkhUfguPEuK1oSyMeFyoHZijKm9EeSfbFdebe_G8xcNXx6NIueuB80dC0bMildGZWCLAw5FOdyT5ajcjqDYNqWbwV2EqtTpemJqMpILDdXce9dB_VoEWxJBvvovI-ANeEOLzIFb1jw=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.SENTINEL_TECH,
     name: "Hunter Instinct",
@@ -537,7 +559,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-003",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xX740TNdoBn1q3r8u53HJ3ALmRX57bVwOf4Nrto_DUqg6nWy2FK8ADxrIq7zu8f3TFB76uoDOgGr3vxCxiL6REV-GhODCrUhgLFjgSoZSqim20U5XcQ-V2N11j-lcamliDVTq9-rl1wVm3pYeQkJqKUh6WBXlohR9sXUqV5xVayR0CqU6Z2LBjL5bKLd6DS2JPccoQUxW8yIFdoHlunADtt3Ds6avDWmG4tdZrEfTOu3hUdq4DOJY6loLJmXeCqHQ=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.SENTINEL_TECH,
     name: "Into the Deep",
@@ -561,7 +584,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-004",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXvimQMsVI-JJVspAPHKCMRCZZNAX6uYOuy_n03P0TK4aws-z9WcPthxvrRK-XcaHRQMCGAzlB3LbHLvGMFbbAkFy521EvbFDJcZg8HcDbvNJkeajxy1kP17EURtm6vLbFRnJjvIQ6Jm8DEHCm-dWSS5VgJECC5RDcFBMDOr27bcyMA4gpsHRwUY539Hkv9HMkLn4XWJXBi8l7TdFXgbqDlb1ARJhMrjZksYWeB0l9qVE76AywoG663BgIJsRoRmw=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.SENTINEL_TECH,
     name: "Unbottom Desired",
@@ -585,7 +609,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-005",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVhZ7RrazYXuPg75cK9zi3yjq7EC_uVLexlmgppJip1lMk5lzM43LT6C4mkdPqqpy9uHd_3lyNfPl5_RRvusb3IqMwYXuJ7GBevlqCfmnIQIrWnvNdxRKh2t86IbNZkhsj8dQ7e-3Ut0IYD5QW2EMD382BgF5ygOX4d5PqQbt_6932EXvMbxHKQ4TJiyYf3KeRur4-z07fFvmMKnXm-KwShFJkXybcRbrcSMTdaBRzqXKpMJQVYX--Qc3hgoxBF=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.SENTINEL_TECH,
     name: "Undersea Menace",
@@ -609,7 +634,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-006",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU2Z7ETb-Kb4ZqYABVDHjdv8Wd6EyeyvC0ZOU71TkuM6s8k071KvIaYQYSI-Cha4ZRzkqBfOTmgw2YOFApEedFczn1tpLbeRSMYyZoU3EdpbFOYjAErsetaz8i1Cj_ZPj1Xq1bfEc_-nKeWEZcyXkUrNYeSI75MG3YbpGagYJzBfKjsqIRIASJgJALAzYNjv-D9lmxHcwDMWvTpIfIlCL0pz7K8WT8jsf00UYcLPtA4ETDSJL7YsYhUrWaAnL312w=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Anomalocaris",
@@ -618,8 +644,8 @@ export const cards: Card[] = [
     product: Product.ST02,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: true,
       northeast: true,
@@ -633,7 +659,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-007",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUOdUajnkfras4WTyofSwwhGR8lz3gAAgHdUsauLFssZ7cK583hIp4b4CEQKOZ9eGtBLv0rWO_I-SojJ902E3QW2NkyCn7EQqbikX5gdmjCc0WQpu_QPSt7jy4DdcCxKhVjxNa0Q1u0iUAxX5DSktxGtFOIl75t3Pvjj6iiCWxMkLn-DNVpiP8rg31tH8UpTEW9LdYbJSqoEYwqMg4LqYaA_Eb2lJKOYC_utIP_d8h6VNmKf3vCV-wAxlnbhEPt5w=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Drunken Crew",
@@ -642,8 +669,8 @@ export const cards: Card[] = [
     product: Product.ST02,
     rarity: Rarity.MAJESTIC,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: false,
@@ -657,7 +684,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-008",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWXEIGN_Nb6AqTSwLD0vbF-UK-n3JMk9zUtP3xRURNbhLKYuNHm66h_4xh9lZGNH8u1LzoPO4PZNMEU-tPy9s849kszKUbWeSZHxekem7HzrWkEobUYpb8UYNHTVuxaH2acPjgEGoCcQH0CgxBJD2hxgihWMD40rZIEihtfbRWa1g114FhKplCekhyiAmv76FsPmMXs_7Xqe54C3-E8yZJqA2iw-WFDSpYKPRBYZpt4PBkZGEvfVGGsX7M3ecseUQ=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Giant Crab",
@@ -666,8 +694,8 @@ export const cards: Card[] = [
     product: Product.ST02,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 4000.0,
-    defense: 8000.0,
+    attack: 4000,
+    defense: 8000,
     direction: {
       north: true,
       northeast: false,
@@ -681,7 +709,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-009",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWiYpG3D25aFk4BzabpRD75KSgSQh0ocHrW9jQ2_yz6M1Vc8HVGhG9uiz0CkC8A_401-7oGk5lti5rybsW4sdq1lnXDkIsOQzaO3XgjaPC0HreOx5T1LUsCx40fR7B7_lrKY-YIKD-fp6_b683S4ASB7dcKC5UZT5nPXy1vnfL37XAuHX9pbr8TP3ykiDlSf9jgAxLa4l7wRtMYtaBewFkXGwDDihN7nPUnLyC3HvDuvMB25s8kHtYNX0Z_tOzv3w=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Giant Horseshoe Crab",
@@ -690,8 +719,8 @@ export const cards: Card[] = [
     product: Product.ST02,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: true,
@@ -705,7 +734,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-010",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXegdJdj3Nm6oOMjfMsMh-KOERiY7O3swDLD5Jv3SvSmf4fu0NSaSMI3WFucawyzbmNvC9Q_p1oDjEWlBw1uTB4X3rqZpA2Y7byOtUy3eTvwxUos03Uo72W-xnjrKrg2wRvTiy98LnJccIX_194DxxLmRSHQs-x20FZnuNKvjU47AkxWdPXNbsYks48MRPThfGO9BGzAw1r7BtxYj0JWHv4OxL7IM8tTTE2VOukb697d8KWI95m2D1niJJpNUe7=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Giant Shellfish",
@@ -714,8 +744,8 @@ export const cards: Card[] = [
     product: Product.ST02,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 4000.0,
-    defense: 9000.0,
+    attack: 4000,
+    defense: 9000,
     direction: {
       north: true,
       northeast: true,
@@ -729,7 +759,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-011",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXBz_Ml-XlsfQKpr3vk8a_n-twMokfYgfYv_YIkqAalvwFFs0NkfaiXQr6mfv1C8CHGY93PFFCHRZ2n1zeLuBtlcjMPzS-i8oJ8ilHD4oGfNHvEZfNSEwNtVGQNYk7RuPMsjd6EIxuxXwRF5QCwQi9EX-vGOu49NhofAQGdV1-vYAobeClLnLecl0ptRpLQA5S8TJqVuvcqyziyImOJtaHFdYqtTIy1xJ47xGQZTWEN8RsnRwjRgdnZXFx5MdixJQ=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Merman Assaulters",
@@ -738,8 +769,8 @@ export const cards: Card[] = [
     product: Product.ST02,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 4000.0,
-    defense: 9000.0,
+    attack: 4000,
+    defense: 9000,
     direction: {
       north: false,
       northeast: true,
@@ -753,7 +784,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-012",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xW7chi-KjQuLm8o97LTjyuO4c20s-5hZKypyvQlcSQ7jPiByR6tbUPth_sOxowK3WgUfH6dzh4VBkMjsqRkd0XA3Ikij4e2F9ZuiyJUs9ylouecUiG2H80-tkrpFLNMX6BfOTXX2XV6XHP-d95BMWxksScfyRgCMdl2HulM6YR8QFPyoZTuPryaM4WefszVTI-EPSVK0BEbWGvqCjT03tjH0Mp2r-LiOZeF6yawIWul-5w5bNkKuqctTKmqvqy9=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Merman Warrior",
@@ -762,8 +794,8 @@ export const cards: Card[] = [
     product: Product.ST02,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: true,
@@ -777,7 +809,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-013",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU4I4UOIAjL3Id2vd2gADmrg6iw3a4n3rE3wr3CeQhGEmvSDsLZtYYtHs9X4FyIQ3RKY4HtlAI1R1IQhqc0WmflLbajbUw7nh0UPtPYeuVMIqJEGzLOCb5wK23RAxQA5iy8S-HIs91Ol4ZnHWTCf6jy2MSNW7QzKXpSj8u3vzdR9sj2MrToiqX73vfGJ2PICF_Hl25XWRoa2NczJMZISpkMjSfJRwCg5DmayJr1-4dCZ4JrsJZZJ8w_o2cnCJVZpw=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Razor Fang Serpent",
@@ -786,8 +819,8 @@ export const cards: Card[] = [
     product: Product.ST02,
     rarity: Rarity.COMMON,
     nano: 3,
-    attack: 4000.0,
-    defense: 10000.0,
+    attack: 4000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: true,
@@ -801,7 +834,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-014",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVNj9dnc7PrLtOXiBRR4dqxLhQ9-5xDOM6ZYL_5vwoK2Z-Z-5GUJW1Zc4Bd-XS_gS58hwjJ680DHkMGTHrqbPKUzW8cpreaF1MsnESKFvopp02BMwMvp12APuyipm0uFXQSdonVY3Pmnld_7BhXw0Gzvr_At3i_c067fM_4GhPdSOwo_jKlkHAy0eQ1xdZ3znhYhzliItSq-NuuekFMQOWly9JfZifE72A2Q8KDiQBkixbyjK4UXsYG_DToOIqYzg=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Crossbow Militia",
@@ -810,8 +844,8 @@ export const cards: Card[] = [
     product: Product.ST02,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 4000.0,
-    defense: 8000.0,
+    attack: 4000,
+    defense: 8000,
     direction: {
       north: true,
       northeast: false,
@@ -825,7 +859,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-015",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUyrmBBaLjiPu5RBY3mbQYxnKHECbPkJDl85iAj7GYSV7-coI743YMGS-q6pV6ujuDhCrxyu_sqE4nzYMMbaDRiD8uC7u5JNBliwLi1B-wMen1pITWO7sxLzVI5yMDuwJDwIJMrEJiBothVsKRzWraB2RLuYgNDgunMKtmyv1bcVzUYHPsmtCn6J3HW2qH-DtBxX1QXwgmvYsVsDUKS9pAJQW4cpYnw7thHjmXok3WRSgm4W5hSqEhW93FaEGz4=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Farrokh, Rebellious Fighter",
@@ -834,8 +869,8 @@ export const cards: Card[] = [
     product: Product.ST02,
     rarity: Rarity.MAJESTIC,
     nano: 1,
-    attack: 2000.0,
-    defense: 7000.0,
+    attack: 2000,
+    defense: 7000,
     direction: {
       north: true,
       northeast: false,
@@ -849,7 +884,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-016",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXZHCJnBcTFcSkIhkRxKLURjDoZLRq_rJNNuZussveuUg6BODc7f7mG-pnpzbIEnFMRt-AEa856G5v2KjbILcdqEhsa4chpt51TbEBoYgeYeDE5En2bpJr2p0UBa8GqH7qJhtTO7V0YuzL0NlHdoX2vvjTHQwm0xAJsQTGgo9ynpFktQRtljAM8ZvpghBfD3hO-utlyKaD0lZnAFVAsos0KikwnG12tEX_KNCsDplqMda_rIlJWOFPb95SLudeO=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Great Axe Militia",
@@ -858,8 +894,8 @@ export const cards: Card[] = [
     product: Product.ST02,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 4000.0,
-    defense: 10000.0,
+    attack: 4000,
+    defense: 10000,
     direction: {
       north: true,
       northeast: true,
@@ -873,7 +909,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-017",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVP7acGs74u-g3sCTBw8To64N_wAHHasnO_IX4AnriOePkGjHZTtHRTbyrIhWd9Pryy1ibTMWTlgCubOIOaTApNRgDDiy_sH6Zhame1lVtoX1lpbBvn71wi4HIc_Z8X90dC1lIumORVOEOh6J4c6PGsxvbPtKpOOEm4DJ2XRnIQ3F_IJwed294QL8tDFdq_DrcUjmMq3DCt4Mue6cKRWHQFN0P9TMH4jsTBbq1sVqDOI4M4rvKD2JLv_uGckK0zYA=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.TECH,
     name: "Found it!!",
@@ -897,7 +934,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-018",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWYCb-yHH_7cMbwFGCX0t8rQ5NoWA974DU9_91mkS8SwnxOz0uSbOCp1Q5KRi5jOOB3QGDEEGYvhPbTSI3Haa5Dc--9qm3iTaqygBU9uDjny6Muov0ZGDMm4QAx_54oS17gRbSjjY_4Uob0B49K69CBd_mJY1qKgpBs1-I3d9oPZi5QdTWXWHSS53kuT72a_kDlXwffbpumfO5cGZVJIC5JRN6A-OrJzp4zZl_1sBmpJmrIEmaaObTKJL7WAd6WSw=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.TECH,
     name: "Merman Block",
@@ -922,7 +960,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-019",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xViqGaPb18AK64GK8d1OdiIN8El-iJsgHZlq7TuxSU24HnLKG0yZPuV6OvO1C_qx38m-zCOgx4rckM5_9lZxIN67WOPQpX3L1RnV81BrXrhLLxhD-zzpQCp85-nK1tN3Kje5Une5yvSRMNj7q20AzAVdiI3dam7P46qHO1_5CA_wACDClh6H4fAt8j62d94U5V80bO86fm5UAp7ZykmimOboOZgQG_XPBS2Pq3Kw7KB4xZ7vYrIyxTEIWYWoxV4xw=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.TECH,
     name: "Shield Block",
@@ -946,7 +985,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST02-020",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWUZVJ66mBhwpUo-CN2LB3HoohCl7IOvlaiPIJe7gJd-EQGhs4TL-n2fzh6b7YhQKs6PZ4gBDF5-J6pqrQPkEzvZCO2fKmYIm2D4qS2Zdk0B7ZhAO_HhryBWYmHDXVdw4uFGYYbcqJJtLZ8K9K4cxbi5mx6Y7alSracz7LroiBka4SCquR48eb19_VBGhADxtB3rgkM3k4xSfU4mrCetuAt94urwx2WXXBZGZwX3jkpmO6J6iigJ2I6_OZUExo2gg=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.TECH,
     name: "Sudden Attack",
@@ -970,7 +1010,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-001",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xV9YtteK4JE12FAS9NItvZpL4YPm9p2reDa1wmIG8nmJTL3DbTm1izEFtqhY-vGc_5QlKszLcBgczNy4z3N3RSrvpqTZ8rclZvmdEpU25dpVY2aST9B1XAIscmYvfMAlIAgQsWT2eBkAUDSG5K04wUCA5GlGNCjFsBvwQ3dTfVx9uDuct6GBUpSahGgJ1p_oWqQyaXZx5h4y-V25pRg7_qO6OFyrtNB8pBpRcjKEnarhaZ95ripkUOY8CJHnnX8FQ=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.CHAMPION,
     name: "Aravind",
@@ -982,8 +1023,8 @@ export const cards: Card[] = [
     product: Product.ST03,
     rarity: Rarity.RARE,
     nano: 3,
-    attack: 4000.0,
-    defense: 12000.0,
+    attack: 4000,
+    defense: 12000,
     direction: {
       north: false,
       northeast: false,
@@ -997,7 +1038,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-002",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUu81tqwELY0RQSFVqbQ5RqckY0z_bb_2HlyjuETvkQCnHt_9Qn3V1kdTws5VA0CqkffMCfd3UbOgTCWm4HWTEOzn2T2yyibMHEiWl_eFLRUTg78bCwahyP8DHzXWMPVQ1d-mjM8TkprQnzYKgB31dbBAyWCT0HpAiRm7mz5P9rlODB7BG6l9VXQqMxyMnQ84J0uKkEnH8EMzPf8UtsKOaUYm0jP0b08chlYR7aV72W5Lq3LN1xS85S9IXVee9iDw=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Dali",
@@ -1007,8 +1049,8 @@ export const cards: Card[] = [
     product: Product.ST03,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: false,
       northeast: true,
@@ -1022,7 +1064,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-003",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xV1-zdDuzOTkcw_YUfkzeeknRENF5ftRYYYstZKn1s8GyDRLMyP_Yuqhuh3NKODXYlVPh6HkgwpqZZB2yhSyYl97At-aZxmNWM0Bs9_nO7EfnqzwAYxoFMjQqIz_YrpcnCL65j8RZC2jUZfeD55i6HXiyjMmT9_RyQa9vkG7pCq0kaNOCKYxqHYp382qLbi9NaqohCy1RdXN5aAD-J7n17i7yjkivELqPyNdMJ5oGkrKkJ26-pMNevNZA=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Divakar",
@@ -1031,8 +1074,8 @@ export const cards: Card[] = [
     product: Product.ST03,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: false,
       northeast: false,
@@ -1046,7 +1089,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-004",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXiRykPeiERgNLM8JaDX5ypcbw3HBT5XbEG1CwsRG7mdyeYoz6_ahXGCUTXpKbCxw1rrNmGr9gNU2bDWX-o6rUs3u0l5tAiBR0lTk57zWSaR8BBFG_DWE5Frj3hvXKcn7RQHijXPkhqa7TalyR_vjzZ9Xhf5mI2P8Y_P6P_2vKkg2WUBcgTq1b5JHA0qPbLPd-hm0VUf4Z_3biMUaLL0lY3PCzFwtAh-YBmj1XqJJx_i8kVeG3XTjJrDpF9Efry=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Gurumantra",
@@ -1055,8 +1099,8 @@ export const cards: Card[] = [
     product: Product.ST03,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 4000.0,
-    defense: 8000.0,
+    attack: 4000,
+    defense: 8000,
     direction: {
       north: false,
       northeast: false,
@@ -1070,7 +1114,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-005",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWzNxgG_RnSbrbgEMlqWeuDScmwch3Ot6UM1XABDtK29oosv_OUuk7YStc-7f0gEtj7fSPQx65cBIHPLRgQ0a_BcY2N26baZ6L4N39t1IG8uQO1Ihv_hF4rOj-aPB53vaD2Y-K6TCIYT6nZS8_1Kgk55m5bX-E1D06RKa-DHc-loed-3BkcbM-KnxRYNsZdxaOL127JxqgyHHOmTTz68EAQy5kZLIZz1iMQt0ONO2OtLzh2rJoy8-QVqKn-kvemAg=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.SENTINEL_TECH,
     name: "Vajra",
@@ -1095,7 +1140,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-006",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xW8FOOYYv5QQv-4os1bMRF23KD5_0BPszkrThM21M-a9Ox_ztfYgbhz7BtkLkptU3aMVdsH6bCIb_LwrH0RjB9LF0p7nSvqn2yRiEaAHGb8gdZFFn_9UD9jFRPOTFrlL-2uJZ8kZMs1R06F3s2WoOu-SZsWNx1uMdGRLJjc5cOHzBRHAxnR9oX4LKxUppcdQ4vOvXKCjJDcC-II1848ahuk2ydpx9RTnNR9EADvFEMyzUiMB1v_abGQAbDV3uEjzg=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Blossom, The Sound of Forest",
@@ -1104,8 +1150,8 @@ export const cards: Card[] = [
     product: Product.ST03,
     rarity: Rarity.MAJESTIC,
     nano: 0,
-    attack: 1000.0,
-    defense: 4000.0,
+    attack: 1000,
+    defense: 4000,
     direction: {
       north: false,
       northeast: true,
@@ -1119,7 +1165,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-007",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xX52EqM6L8HbctTh0TMVTeQg4SslIebJkjDpf-4xrfIHk6LJzRNwu1I63FMCG71Tj8MdDUT3c3DDAhWOGQ-kNlweg5ZSFmj7wlQY2AWfuBnqF_45cvALMgBYw26AyaChM4vN3sJGm5i2FNPrzRsRbKAi97lGO85ytuQT0d0MDYFz0F0lkIGQqYwPC6_QU51w2pA92UYHdU1miqk2IT3zSNFNRlnGZM6ZuK9A823s4-4IYI0wDR8pVM9lPbbdXCsUw=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Lioness",
@@ -1128,8 +1175,8 @@ export const cards: Card[] = [
     product: Product.ST03,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 4000.0,
-    defense: 10000.0,
+    attack: 4000,
+    defense: 10000,
     direction: {
       north: true,
       northeast: false,
@@ -1143,7 +1190,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-008",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWpzmbBUW73kuoFFAehpSM2whIrKL-knJO9nBIoSx2btH7G1lNCMcIDMAzvX7BxICn0wb7Hx0065uzCTc7AmiwO7MycxwgUHBeD9UCRPfTNc1up8ENMsg2_UfeMcUNy3hjyZd2ZLNP4ibgr__AxbroGsBtIY0glKnvRql31sr72UsW76cXOkW6Y-MSVpRYQucBuMmkrmMRK8xLHSGlEW_v000ldD5lN7788IS063ORNdNBxFzbKbAoB8dqeOzDGsA=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Suparna Assaulter",
@@ -1152,8 +1200,8 @@ export const cards: Card[] = [
     product: Product.ST03,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: true,
       northeast: false,
@@ -1167,7 +1215,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-009",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWcVWeBE4wVrlEwnHtLGyAS07qEOHtWt4_keVb4OGhkjcLSZCuW9Z7KtuVae6eRlD9vNv3O7ayHyba2EttumaNmS_dGiIX6OOyMMc3lZFDSlz1Cor0j29rYTscPXOmSejPww7Q8Kmo7WG4FdGI20j79aGqTD_z5mrBlIPJqv3IWNK8Xh-bRn-8sdFCQDBiMoo1DM1rJIQu5JEQBPUnhHrK3ZiOzj69dsSIy98bBjcoGSQqtkqfjeoUhA9nPP0sX=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Suparna Infantry",
@@ -1176,8 +1225,8 @@ export const cards: Card[] = [
     product: Product.ST03,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: false,
@@ -1191,7 +1240,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-010",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU1mEBLIOv7bh7OxH4_UZ57qmxjG-IgUbpj9j5wDR0-RnzF_on-BgK5rPpVFwZkTZteAbji-JkF5ASxB7_agOb5O4KizpKNn5mc-OmXT_BQM_DF4x8MVXDcazOWGNgD1wpx8oitbgBuFUpCYLWMIXEbfC9tO9V-j4xoNngSlPKztjeRHDk8pZil0ICiZ80eIaG0Xma56qrgNstwQ26AUInjJgYa6iszzDglzdw4yyEDxkVCQbSF-vBPPXBjsjkh_Q=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Suparna Soldier",
@@ -1200,8 +1250,8 @@ export const cards: Card[] = [
     product: Product.ST03,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: false,
@@ -1215,7 +1265,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-011",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXtEGvdS8auQoj-dI_fLDnV--hc9E3czko942UOQxWfUP8NU09lAP4siXzlLE9d4MtrlA4vU3NtT_lIfwm9NjZtwUcfhQEp6oXIe948zjhpeIIR6HjQYsnQsR7dJXcOmBE7y5GqNM8rykKXCHsuePQTTrubU2mLwiY8ZY4_D7x69cNq5ANHNbN9qcOjkevzsXd_32rPu2S0B-c5QCoqP0owvhHcQpHSU2_BplKM-YvfhkDZ6gpt7U4Z25X-YxDdEQ=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Ussadorn Vihok",
@@ -1224,8 +1275,8 @@ export const cards: Card[] = [
     product: Product.ST03,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: false,
@@ -1239,7 +1290,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-012",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXkb7aYAsPr7XYABEzbyYLeiRjy1999YOvtdLdPEM8lL0mB9Bd6udDywbgmYz_Uy54t6zIsijqh-Cnw5e0jQcdTbs1UVE7Sc1CvTy0oiw8PEKS8wcxR78OWcMpGtLv8As6tGghwy2Ws2dOhhA1A8Qqoq56WMRhy5IS6151lbKHt2GnjiYhLpAkQadoC5FiK1fcwQSEkVNapwJD7b0r9OFnnb9mgXEZdbNA5ogbugypsbDK_JGGF_JeBnver-2a1Yg=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "White Rabbit",
@@ -1248,8 +1300,8 @@ export const cards: Card[] = [
     product: Product.ST03,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 2000.0,
-    defense: 7000.0,
+    attack: 2000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: false,
@@ -1263,7 +1315,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-013",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUPlszJytZogCZDWBw5HEZ5o0qaA1RIyvglSzHTAHSK4-S7nNE5zOX4rdL8HvcOMt52_WuHs8SFyDZ71-I4rRb2zo9ASozOAYHUOWm6W274e44hpAsNUAyfCr2j7C4XPSpEhFqi5uW_BoY84VMdADehc9R8tvMAR96F4FhJi31d6R5oSQe-DTAXZsXDXGimc6HgiOJhbI8Z7-Lo_9boqwPIHj7cCkcSaUYMrT614ZI9Kd8963WmRG11qYRY32d1lQ=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Wild Boar",
@@ -1272,8 +1325,8 @@ export const cards: Card[] = [
     product: Product.ST03,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: false,
@@ -1287,7 +1340,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-014",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVpPejepwJ9zE4udiRLqAZkDwUTquqGyaHYYKvPAMlRBzMJf7iPqtG_L8juDx4TrQszkQ9L9ynQCjvmy0z0RJANEkG_c2KAPCtHE8MRJU7H0aQgFkgS1BAb-vK3C7uM-6O3PnXknZQBSLpy0aoVa9WcbtK5E69iKK8nKAZaE01JoEBVFHSReITHGa_bPhTsV0E4BZvk-wPB7cJ_qQE3sWJIBJXiXgImDcAnMQXmDod-5Rq44Z4C9OlcuiFvSyyaCw=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.FOLLOWER,
     name: "Babylon Gunner",
@@ -1296,8 +1350,8 @@ export const cards: Card[] = [
     product: Product.ST03,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 4000.0,
-    defense: 8000.0,
+    attack: 4000,
+    defense: 8000,
     direction: {
       north: true,
       northeast: false,
@@ -1311,7 +1365,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-015",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xValj8iJaabkm8Ucn1tfeLmWm6bL5naLgmDUOhlQGNMLZ7ooa-5ibt-G2N2wnP4Q5q9FoPI8_QzPeyPt17WTdNTFFFfjNlaHvGUMmlrSj9OheF9UtOpxaIDVSIfpiFsW5LttXNA7pQe-h71tXfhdICwU6by1bIGSjB04mEFaKQ2PY4kwUpYHtQMO6_XVwiCwRZbUif1jYUEPq13NqL5tXHYIktWTRjoGhlef3kpWnpGj5J0x_i4C9JE3rF1fKc9=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.FOLLOWER,
     name: "Battleroid Sniper",
@@ -1320,8 +1375,8 @@ export const cards: Card[] = [
     product: Product.ST03,
     rarity: Rarity.COMMON,
     nano: 3,
-    attack: 5000.0,
-    defense: 10000.0,
+    attack: 5000,
+    defense: 10000,
     direction: {
       north: true,
       northeast: false,
@@ -1335,7 +1390,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-016",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWAJU46Os2qU2uryWxHC3pxZ1jqfaj2YX1zt6GePfhg2zdDITK0AqyFGK78ruBlpTLKXAQUaTD_z1HUHQQciauKhyOq3HXhsqnqNSQlm0S8MIq7l7l-_HATSGa4_MCot-A9RV4SFkWiJcYgFqxZW1Hh1S2lFwzGaeML47AtAwFHvkGNRbvdT7t8q0pCXjcCXDFAHTU7R38_BqMnQfnzKnR61MfwYT2ywdvS_-UxgK9LmZvTP0YO5EqlQ8Xgl5ltPA=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.FOLLOWER,
     name: "Cleaning Bot",
@@ -1344,8 +1400,8 @@ export const cards: Card[] = [
     product: Product.ST03,
     rarity: Rarity.MAJESTIC,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: true,
       northeast: false,
@@ -1359,7 +1415,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-017",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVRsDSGCdw1aNaZhS57_WAxNMmPF_dAl0Czc2HUWRpk5hzEGbDe4xy3Fatvhy88XkronHAwLiS9cFVAaiYQ9EhSeyN-C8YqXioZRq79QDUnAVpr0MetZ0b4Y7ZYUxoRHdHby7SWl-EbhuEqhPdWOCLAe2EGS6-uC75u3MQAGMF4tI2UkINIVqhQk-MNSwVnN9v2HVO6zQVMMDoN54WG68XG1Kj1lcndREOuKbU3CqBYSNyW-dqhXq2S3QWx4xn9Lw=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.TECH,
     name: "Nature's Guidance",
@@ -1383,7 +1440,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-018",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXuNcQYOhYG0ogFBZU_DjWnOejXRe9m1eNm0kD_10Dox80g3XwFY7KnaD4v2YqXr8DNi_hqgzZv88_EO3M1t3fZyL1nmpxlsx203mZ6x0pP8U9tCZI621Tpp8N06ECkjWHRL9SZMjiCcrL-9-SEvGb0TEjDC0izZloo6jkvgPE8ig0Ct-_BR6m7ENr3iypi5hWgl7_hdn2mdJgf785coCwy6B9U_99rNlRjPMFWSsGWZoF8LZY-2-CrqGazy697dQ=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.TECH,
     name: "Wind Barrier",
@@ -1407,7 +1465,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-019",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXTl4g44aPhNWIhtWj4rrb-fpWxgmlmqXAYUcbzq7D9Mqt3BzpHEvKEDG2Ywa684xP5S_mIc7JElHt65Oz1fnP5BUkgH8NGAKXHwhvKemeHh_zxDGQP_MsL35KaLYC5KAuz_C5F2vE5m4_FPo26nroad1hXmfWB4YiOrdOekWcChm5I-FVgoIFkAcl4D2ppiNP6Utop52VS_3a0tG1hUcEqw5nBz2lZwALayLWko9WTMN3TG--QB57B8CHlcTDIqg=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.TECH,
     name: "Citizen Chip",
@@ -1432,7 +1491,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST03-020",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUy9r_YvsLBcF5J9WDbQecMMehJMg5jSaunLW9jThS7WkCcm6B-5lVe29DoN96uN0PfLG2fYfIEEkpL1guu5xhxSH6jXrRHaVF1bLYq7OeY0XL6Q3BJeIZz-6FHF0YbixcBZko9oaHotk8BMz13k_T7OdQon99m2m4eKPe5sOzxY-Q5fY--T6Bs98uHhZJMxRte9ADE1b8Yj-HLFzVpeY6osSXjeFg9ONkvI8ucvw-biLoAleMFiipdQ2IA6hPyhQ=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.TECH,
     name: "Criminal Chip",
@@ -1456,7 +1516,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-001",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUqg192urUtDbb-Tnjvq20bN0KwyWuTIGcujXBjkK7i0wLLLf6PQSMTb4SvXWeA6DmiR0MkZPpurwPHZmpyZLwi36OYjuqoZv8L47CbCBsSrubNCXofHS4gkR4KeuAJIawJmvNH5E39mUceBEB_x7OPpxavs1Vx-hYflgCA89LVXbeWExMeKymn_9I1NUOLBfyKDg94agAv-6tBatJgJF9pb03ImC9ku6qHVviD7h57_Bm3cmF2YnZoWEfxqSWPuK0=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.CHAMPION,
     name: "Leviathan",
@@ -1467,8 +1528,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.GENESIS_RARE,
     nano: 3,
-    attack: 5000.0,
-    defense: 14000.0,
+    attack: 5000,
+    defense: 14000,
     direction: {
       north: true,
       northeast: false,
@@ -1482,7 +1543,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-002",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU9HRl8inSlF36Oucu5XjLbC130nDxFB2AAS219Ck_0pxf3jCjVHluN2tjJtLPr4Q3IM1kZ5neu1oHDV5UAdGvc1PqlOFnZFEW62vlM5bbDpOnLN-n2KQr_slXwbW83LMOuB-EmzJlVPvtrgXL8wZod2pJiNGYYFVG0yjRpNoNCh7ppGKE--Qq-MmambQbvVdDyxOTDdhYFYZVeunYZE-lhLAQtr4nd2eVR7I7gRgYXmJ4RRYF8ShbWtJysf_3Cfoc=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Leviathan, The Invidia",
@@ -1492,8 +1554,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.REGALIA_RARE,
     nano: 7,
-    attack: 7000.0,
-    defense: 17000.0,
+    attack: 7000,
+    defense: 17000,
     direction: {
       north: true,
       northeast: false,
@@ -1507,7 +1569,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-003",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXORwP_w-6nYLjv_yNlhZG-9Pzy84OxrA7yluALSmr_zrRKXI5Tocbr7Znthw9opk1vwMzaoMi651mV9kRHueYiEpSUn1t8VlRt0IVBWidYVrmSeVXuNnbnFVYWz8i3sAM9inIuUm7O6rXbh9dHL5IcXKyd4KnpsUcAjkdObigQcTarRxySbtZlx8vSUQWitTiqGJj-g-2pXAFXyTEqcnEHjW01vnu5HMX0pqO2sOInJJz5oCoMuDGmACrNBR6uXg=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Mutated Narwhal",
@@ -1516,8 +1579,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 4,
-    attack: 5000.0,
-    defense: 12000.0,
+    attack: 5000,
+    defense: 12000,
     direction: {
       north: true,
       northeast: true,
@@ -1531,7 +1594,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-004",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU1T09jezrCh2a6Po6BjW7KXEOv4uBrxp1C27YhZkF634TLNYkkW6qo1WX_QoqhXIAnJVigE2hLlWHED7W9y58TvuDOqWlGSdKnJh4Y47DU5BbGQAbdjobHr2DUBKNPuuy54vGQQhU9oxYMnHybuJyunSGOoBvXE5DcThvW36ZWpCpusQorb7Rtrjo85RyZgrqveQYT5SErrDiceoUwT91wtmwHtQt_IrDQkphR6P07YfMDJHYBS1B_C-YXDdua9NE=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.SENTINEL_TECH,
     name: "Mermaid's Song",
@@ -1555,7 +1619,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-005",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUWplg-RH3x0u60SLAR7K9BDaRBMomSq-H5Rj-avFCLVoB8GfPtbQTXUDKIO9PP5cUNI7OnDMrXvQONWy7OyzM-fVDd75eAHsVC3h288Jb7OqZvSon16xpeQmIsYrK707tv_Qaf5P_-XByGt8QrIuhTTGujgMyLfCNVoWC4jigaYAZUXWg2Y0hpk5pYnVhatdYwQsjskhKy2WW5uWQOhOSXVvlUY-cjZPETVkZceb_2YRPTQ1PJvBb5hZ6dNaXjbA=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.SENTINEL_TECH,
     name: "Whirlpool",
@@ -1580,7 +1645,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-006",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWRLe7TmbUM1J9rKP8KN-XX-q6kX90bZ6YmJfT3jQWs9wK9ieuSMv-GThyCLelZ2jM0L5ZFsRJZ4wTzIoFyNJB7BJpLBLkGvRv44T17ROjUPCOCSWs9I4hw-PDal9e7LR9t4w6y1YM8t230_JxywZo7-EibilVQkgegSd_6Ke9ZmgzGq0QbQzHvZLZumitfUHV1GEX5h1qntMzMKK93AFJ0k5p5uW1FzM3UdYPyD9bPxH9UvbT-KojFLCjyRbhuEg=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Astrolabio",
@@ -1589,8 +1655,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 3,
-    attack: 3000.0,
-    defense: 11000.0,
+    attack: 3000,
+    defense: 11000,
     direction: {
       north: true,
       northeast: false,
@@ -1604,7 +1670,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-007",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUG0i2J16f8oydaKuuMUPS5Bd0bt2X3UXhWvJPDmLx2lasYKKT2_ssqsYZA703kUNkQPHJ4K5xC9X98RWjraIl3sWn_kyMOZ9E00S9VTjicRCD9V3doBOYLE9LUt1tibsNo0pGgsrRSK46O1-4osSrSkDrstbfFF7OYxDEKrBKNJ9MdSZ4EUGkSgqMKa3sbL6XwrE-XO8skoOlkPxxMTyOLbJnE6-BDqQoURv-gTSKZGn-ZSPrB6jtE_4aiJ9Q9gw=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Azure Mermaid",
@@ -1613,8 +1680,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.MAJESTIC,
     nano: 3,
-    attack: 4000.0,
-    defense: 10000.0,
+    attack: 4000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: false,
@@ -1628,7 +1695,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-008",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUNALnwak74znKxINeJlEY69MONouq13HknysZueqNf7T6S9Eu7v4Q-87qqtYRE1SKqxoKc_sQ3deMcIMyL0uz0zwMj6Th59jykWyYJHMKL5jcjZI3Q0sAMqaNrExJhJMRKdfiARisPHkXWww6DMJVyZJE6dfna_7UdXISVHCN5AHqjht4p6qrAQsPTvH0cnYgp5jGt8dE_hm3DslQnyQQHOpUWmiHWRzByGPlzrc-mR1WiSphDhFzQMpu11G4q=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Deep Sea Mermaid",
@@ -1637,8 +1705,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: true,
       northeast: true,
@@ -1652,7 +1720,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-009",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xV4iMtFRN7EzHmo92zeX14iKI_5ObdKBCoz-K3lUPIZrazg6Yn0gt47WUPynQl4U2zogpDS0GuUKdsP_iqTc9T0hZ6XBhS0RtnaC-Dt6c_GVJmYK3a2qqapHFtksg3utDBrF4kd8HRGdlTn6HLH-haZ6b7wUhRXISYuNazuZFOG1pi7r6kRXbU6QLSR4QWSEdegwYe0Co0bK4G12eG63GjvH2JwJWsXApp1FcxSRcZopeCYcLHQqvUXAdyOpCPHrA=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Emerald Mermaid",
@@ -1661,8 +1730,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.MAJESTIC,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: true,
@@ -1676,7 +1745,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-010",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUeIgOT3NPJW9gyOz6FT0dbs0-osY2Q3DREqxBKB7vSUPLqsw50BF0nWafRqrBAMT00GpIK5n8hwZp3wwiM1EAzt2-51Wgm_UY4C5uOo4d3ocvHyA_H19AMGmHww80m7iWD8iMGaV7mmsSUBHT2BxQLcgHRW2LY9aWes3E9qP7CaJowIjM8ghQHPX_hNDs1VRwcLbtLxZuSdTVmli8UM7KX6xDF1irNZvqv-WzmR2xYz1P7Zt5tud6rfXmMkzjJjg=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Menacing Mermaid",
@@ -1685,8 +1755,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 4000.0,
-    defense: 9000.0,
+    attack: 4000,
+    defense: 9000,
     direction: {
       north: true,
       northeast: false,
@@ -1700,7 +1770,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-011",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWqcqie2gwQXDMLLP89LZiOfU4BpNEdFCz8iY67rZqawmiUetv3panPGp5IUFsSoGYnfI_qzVVIrD62aHS_9TDsxkTLke-cE6hevRYzOjZNg_Km7SZtLNkpWo4gV2dLPmD89cC7jf1tMdqCbGR_FgQYejl6K2-xyK_5PSEv6okO-1JNKh0sOQYMz5oaha2aOiEv6vJ7i4BfLKu9SWMyKTz2Y2pd_Qhk4CeIehCCPefPSaFTgKs2Du7myNOdkbnF=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Merman General",
@@ -1709,8 +1780,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 3,
-    attack: 3000.0,
-    defense: 11000.0,
+    attack: 3000,
+    defense: 11000,
     direction: {
       north: false,
       northeast: true,
@@ -1724,7 +1795,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-012",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVlhLrLlvZIz_BN51KYUj0PNnPmEsuFgTwoLnw1iKo9BjbLrR_C3iHNAa0p2y4wGUHgYIAIwYxEMGQs4Y0Vsdtrrdm7wopjEVdmLPrggKn4rLKZyd6zkSGpWSztTjMY8R7w0qg2DBZfcUbmHxtdOtYA09_hyJndPl-NqvM2JVUocASNCDgJxnV0wg2Ovj6YFYJU-lkCla1Svs9gGawPVhwHiCO0i_ZOhxMGFkoHeCn3JG77gNrBeWmtcKCeOdN1Pg=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Muscular Shark",
@@ -1733,8 +1805,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 3,
-    attack: 4000.0,
-    defense: 12000.0,
+    attack: 4000,
+    defense: 12000,
     direction: {
       north: false,
       northeast: true,
@@ -1748,7 +1820,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-013",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xW4foYr5fKg3WJNP5_X9Tkccz0_tOWje-xZbKT52RfiY76qYwJjVCqu845Tx7xA1FKegB77z4_aCUP2Q1PFfeLCgCA_y2BSGCY2XaYn8_kqdi880y00lF2wqaJ2VCXJJnX0lXq5UGIz-03apA_Nik3Bj7RejtfiiAXvWjuYH7K5zGZFM_7Ck6pPnOJUeLklluRL24wa1Zdnp89NIckPwTcAVGqVW080-d1irLmNCEYCUtdjIlYIYi9YjWWmDHsIOA=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Scarlet Mermaid",
@@ -1757,8 +1830,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: true,
@@ -1772,7 +1845,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-014",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU9k7sjAe9Hx8coi1Vk4hcplCvsNHxqaQE7hNVoK1AekMkOzKEfqg_GsXME3ViQbFtiwNUIWJvsIPloJ3T4Fc6PsbSV3KarPOMu40TaPWv6C73IuBK0_UW7fA3FBQoxQGt_90_HSc68mYfLSuaqc21cT-uGnPiD7pb8wFnogzr3Bg3rJVexnORJQiXxCoCJUrxhePWXpcA4gTl42xojusxesdqOaFrMDMOzwvCJ3rS7TACz_UIP1_HXaei826rqEg=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.FOLLOWER,
     name: "Volcanic Turtle",
@@ -1781,8 +1855,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 3,
-    attack: 3000.0,
-    defense: 12000.0,
+    attack: 3000,
+    defense: 12000,
     direction: {
       north: true,
       northeast: false,
@@ -1796,7 +1870,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-015",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUlitTYdVW6t70G-TaRkbiaWMdfvmkOkaQBOlk83NKkTHK4k1zMfd2PxrdZ4brRKItTlXt52eZ2yOfg733DBzvWO-94mRVmndeQq675_iCMBWgHNO7I-m8k3DquMkQS4D3j6Zy8KCX-7QVz1tx3zpCOt0F77lRq2li3rGOp0n18sMVnQDbWea8JrbkGZ1uWbHsuzbAkMYAunW8xfLR7s1vqk8QKhVF8-7j2sWRLsNcOt5TngAZUaXCN1lIyxnrfrg=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.TECH,
     name: "Diving Assault",
@@ -1820,7 +1895,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-016",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVLdyr-vauJCY2fOWNjVj0x59Y_CYa4ji7swLVr3RfdCk3cZZWA3JXOCiaiZsoiiwNRCAWRQPtLc9ywn0PPtohULYvtUvz4-jGVeePa9ZGLeMSwAYY_HvU157O6PPKVQKj_ieHoK2iMw0WOeTZLermey_aXf7PohF1olBGHLLaisd4EDJT2lZFCWoFBWuV3AIFqoTa-EX-tf4taaDls3-Ueya_rT4C_DFVIiDoK2sRJhqGaGOu_WPr5JRljrX8z3g=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.TECH,
     name: "Drowning",
@@ -1844,7 +1920,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-017",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVZPgL8jZ1Vsr43Iq1qv4EfigLnlIvw2FiOXOXhf1nrWkVUY7v6sjrfQPuHGt84HoT7-mImRWSBJ7SGyApYreM3slaPcku_zq4vXJTI-IgLSW18PQN4Y2565hgVWPa_ZgdzKRKEjfIJ1f44-dRjhvmZpYWQ9XHCJDg1rh7YXO9LnpFKXk2YGDN_0ecG8oJcEanrBhEC6sJOA53Zeqr93CmvgtslMyWggjFHK7pk-TltSeCg6efjlZwKiuK_GvGT=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.TECH,
     name: "Overturn",
@@ -1868,7 +1945,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-018",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUsh3rzz2mxmSxZ_gYbZ8v6ygEg04Svv38VZdbMHENpNftwU9aZMo4ggbXw26w9n_YRSaatUYfkyIz77KenW45DLaDQj_k044IU92pViqUtOAcKexs2BqASUZq71_l-QrobnVKfFjLXIQZYwuSVXXQovVTMKHQ8ts8KjKXmwo7804yiQCjvgwT_K8-dqFbPJOzuQGkewzE4ZFLetQXFoiHkF5X_Xtg2sBH383ksSX3sQqwT36BRi2TBsQj4p9uBJA=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.TECH,
     name: "Razor Fang Attack",
@@ -1893,7 +1971,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-019",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU9vT0tJzXgNW_bJ5GKJVRnWyksPBBNc02XJtjCl29-rQAAV59hs2KejWHdpL2sK3jXOsyh420Ik_KWuOPlUyugs9Pyhk9iXdDSDpoSEiQm_9tYQmEU0hJYlbmHLU6kmeBHGeSTQIXYij8EJktk0Ik4mPrIJmemaByO8PBmXY6jEEaIJJY3GfuStmX-weVKs1GIf0av1_JS9yG8dxXDhuGv__-qdCQRnd1t7ooSMmW4CEvQu7x0X2KN83xHsfqJMg=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.TECH,
     name: "Roar Beneath The Wave",
@@ -1918,7 +1997,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-020",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXaWyBI-jT3oGYBN5zBuXDxTCfSGVSMJH9SpgrXO3twBpA_q4IbF6PDidUAyb_DwSLn2K4AwiqNSozT8P7Yrajsu0l7d23L0PoeNB2Iq3WOxc90xaYvNZjb3S0mv91eTuAg59OfjuxhnnlPKEnOvxiSoLPnrpK_Ky3AYd4_OzTq4I-ysbgQi8tyDZaNiCD1Md5PgP1tH7r7ifvohV2PD1hVoTnEguGqL4KKzIrf85HHFesGbICkVkMa4a9sPf5Wiw=s175-w110-h175",
     faction: Faction.ATLANTIS,
     type: CardType.TECH,
     name: "Tidal Wave",
@@ -1942,7 +2022,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-021",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWWdzuWBNzVicQtNjPw_WUtFM3wdiO6k2vr1l6ym4sbTPqCY49b44Vb-ROMZR2wbShonGYQk3MOvQhNx_e2NHv9I5oLaokk-8zX3S6xLZtzTtzkGMP7FWL_7C6MeZ5VEZ76mN2wNlpTtdpt3g6QfE3z1pYCQtJWUOGMMafSlH6obdGaGCDWlNyZPFfCNwAO24Le6ARsceKsep1NDREfAChflWZMjXzp0TRf-oFR5yBODWUajY1l9oJEeuw7pGvkx5I=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.CHAMPION,
     name: "Lancelot",
@@ -1953,8 +2034,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.GENESIS_RARE,
     nano: 3,
-    attack: 5000.0,
-    defense: 14000.0,
+    attack: 5000,
+    defense: 14000,
     direction: {
       north: false,
       northeast: false,
@@ -1968,7 +2049,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-022",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVQpe3Zw16-7-A5z3hP9kvu4MYjsSGpIrXNMnWMOAQsyyqo0__AQqa36AKWMapoYbBJ1zd9iD2Ee-Cw6zjhnGu-mVGP2SSca5vUxv57zg_m_BMr4Ozy_i9Z9ySVgrZbE9pV_F-gYHQe0uOqK7scSGxCML0T70Xdxb3XtGwZuuw9I2iepHkmnVeuZo_Ki92GHtX-Gav0_p8G9NiTysH2RNlb7YblVUP9EQD3X1f86l90gNYyrT6T9sqiRD8dwG_sI_M=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.CHAMPION,
     name: "Percival De Listenoise",
@@ -1980,8 +2062,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.GENESIS_RARE,
     nano: 4,
-    attack: 4000.0,
-    defense: 14000.0,
+    attack: 4000,
+    defense: 14000,
     direction: {
       north: true,
       northeast: false,
@@ -1995,7 +2077,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-022",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVQpe3Zw16-7-A5z3hP9kvu4MYjsSGpIrXNMnWMOAQsyyqo0__AQqa36AKWMapoYbBJ1zd9iD2Ee-Cw6zjhnGu-mVGP2SSca5vUxv57zg_m_BMr4Ozy_i9Z9ySVgrZbE9pV_F-gYHQe0uOqK7scSGxCML0T70Xdxb3XtGwZuuw9I2iepHkmnVeuZo_Ki92GHtX-Gav0_p8G9NiTysH2RNlb7YblVUP9EQD3X1f86l90gNYyrT6T9sqiRD8dwG_sI_M=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.CHAMPION,
     name: "Percival De Listenoise",
@@ -2007,8 +2090,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 4,
-    attack: 4000.0,
-    defense: 14000.0,
+    attack: 4000,
+    defense: 14000,
     direction: {
       north: true,
       northeast: false,
@@ -2022,7 +2105,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-023",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVIyRIPqC-p3BCB8UDKYFCWgfZdpDXwfHvGdjY7pzbVbAMCzDSx9PTdiW4XLM1LMgQwKX0Ischp2O3bQ54bpwoeggLmsmtJimxl8c9GRk8SOylQNp2OYMECQ12FHYB_g4MOwTh3_kdPUvrz3P8UuCSrIpoQGBu4RjM3uhVm4wEpfWPHV_SbDk0oImw_zbszKo5ouk9SDmnlfa74aL3-sxyJhYdhK7Zu9fAADn-1NGsLWfNY8DR6aN-NvHwMHLZAcv4=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Caradoc De Verichavras",
@@ -2032,8 +2116,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.REGALIA_RARE,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: true,
       northeast: false,
@@ -2047,7 +2131,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-024",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVfb5AnqJhnYHV_urBz1C8OEebFEGvJz80WREdfaeNiIsZKEPZ893cSZqZXr9MHRAsP7MQH_YlveFvQT5wdBW5f5v2fy0msnzNFoBvEsOBuAz-Jd_2PJexxf-WRCdgwKnQ05uw4XjwjS-X1HrqCyEYLx4uSL5x5bKsk40vKzyrFScSyqsY9f3bdUzcPA6Kf3XGHmgz3mim4FkpjhZD2NP8xRYfTIxzSXDRiZMdIwrJYVVsHeINmBOqZizKGswSwunk=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Gornemant De Gohort",
@@ -2056,8 +2141,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.REGALIA_RARE,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: false,
       northeast: true,
@@ -2071,7 +2156,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-025",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUUzuG03sFtkC4k5diEOMiFYWz2gcfPRJdfR6UWLYxLQMzehPQCBGRwJh4J1XR654HdN4Uxzvmoy3KHKIHeFdEkyIGfP0Ai8UfNiNB0L8I_YLyp0pgr3UgPFxeIff-xTd7jNCF8R38fPW0YJAuySwWZMUfc3LbpzR0rPUkNae2mgtdoyChmgkOLU3h0eh973ei-g64KXVdQgke8SNlYRxKLdTkYFhwzkJ_RoEz5OcNri2SRrkLrCE_iVPfO08etNw=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Isla, Stylish Dealer",
@@ -2080,8 +2166,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 3,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: true,
@@ -2095,7 +2181,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-026",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWaK6PlHyk4UjBpu_iti3bbKaDaxWjaJrPYbDsMqJJkc2FVpp_TClDwA_apnyTxpW0AGrcmlPFww1rZgeQSKAHSs1SHwQBZeeuXecO_8qLZkiWU6bmq0ks3RXl4Il01AUuxmt9egqJN2bi_qoDwH_9PvhF6iWg5C-IPYQaG1vuNEh0a9cikqUCUAM8yHZ31Ppt-xyhHFT3WvJjyp_MZrBh4CJxDZc1WC9G4hwTDHBse9ROkRX94PytvZJbE-phvwg=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.SENTINEL_TECH,
     name: "Fighter Recruit",
@@ -2119,7 +2206,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-027",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVHiRnzHS011kmClaoG-YT1uDdBgCQEfwAzv33FhYF2GVyGL7CRdxU-i-SdCZ_8k7PZxA1D1CGvXfNpxgM0s4nJu94bRk84yaKUUJNFtnHVCf5dK5fmYm9mDT9O6dm2VaaY9yKAzSEAx8u_apUVF2B3Tf74CLWUyuAuijnC-RrUbSabLQmPfqluAuJvwuvptpMLxaLpL7Kdz9pAh4BswjKdMw6usvrTyYXuhOseO7mG3HnMUmFf8DnNzPZXo3CYSTw=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.SENTINEL_TECH,
     name: "Impassable Offensive",
@@ -2143,7 +2231,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-028",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xW8fhYkXCzNYTUwFmb0qELhOMqXkIMW_0F81WtlvUBBbWY8FvP_YNZsOJzOzSzCrD-lwTXI4exCddzSGsBhm3iu99HwMrM0-To8NRfuCBH022XISNVKVCtghakzcEzhsDTqPUJ7kMACkBfn2xo12h_nv0icoV7z8hFSMNIvgI9HOuzWnSlkom2YUwoo4sCfnIQj2615_KmMyyMMO-4ekplRCKNDRTCN267N_MhDnriyUcrhno-lFcGq5QlfePhBId4=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.SENTINEL_TECH,
     name: "Shield of Josept of Arimathea",
@@ -2168,7 +2257,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-029",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVC1BlBtiiraWvaDg3TNg9Sx6H7Y6-aCMobkAyT4WrCO8IWNi0_A4M51HiwPNAmL-TgsAvU6MGZWDZkAniFsOZm-XfIjRdM82YTai3owilpexUSsf7p1JCs_7g_iE9X8oCqf5WkcGebaFrQ_v0gdkHf25JwRcZgni4d1_zXq33uoG8J6yYRKirSYOrsDPRpq7WJp_S-LujhWVGDIf4ihOJt5EkwxI76vB7Woc7XcD2P_HJEG1xU6eWKp_lTWnvH3g=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Boris, The Arrogant",
@@ -2177,8 +2267,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.MAJESTIC,
     nano: 2,
-    attack: 3000.0,
-    defense: 11000.0,
+    attack: 3000,
+    defense: 11000,
     direction: {
       north: true,
       northeast: false,
@@ -2192,7 +2282,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-030",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVrBKiXOgAaRbnoAPeCCeINjxlI-xXgpx-qZhVW1xrQpYTKMPBn7fyZta84hPwgRGmRAFhg4jTRbpPEp0rSrxy4BLYZud0z_8pU10MzwkAEeLwi4WiINbcxBssEXQBY6oGF_8DYUJR4QM_3GGMhjPVmgMXdZd_7yVwrON_jJvXPMR1B7IAelgMrUGIsnqJT8AE_WN93azuc-NC61-WVgHbO8EzT4jAklHr_Mgau8BECstoNheV1tqYONdFKu0qhCA=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Cyril, The Noblest Knight",
@@ -2201,8 +2292,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: true,
@@ -2216,7 +2307,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-031",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWS5uv5gFDXxO0sxH04mYamUomIh3MAUBx8UA5q4er3Gk6nnqV-VAUuTtfKOzYWd0lk4bFP6AdGEtMr3XjhgW6PAZrbUk3CI2n5TyGlE03HgxbMQZzp2Ll1pS8IePpslMr4UVxkAS0BUNSUHVbehUxvJQsmGxUYDLm4KZ4-lJZ7Ua3ITV6C_WcEvfiZXPvo1rV3TnRzThUB7DqkWfWGwreu0pkPdfyQgeeDvpPlmFb0LPpAD_Xf0CMyYBt0QHsbrg=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Elysium Keeper",
@@ -2225,8 +2317,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: false,
@@ -2240,7 +2332,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-032",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xX5cG2sOPVBzcq9R_1dLkQ8l5FR1Y6v_CSx5IcRzO5sMBV2vUpQMAUsyKlyY9BxHKPlAwXRqKhRLTIJgH0ssudYZQ2Kq-SXZV9E-sNYwxNfteKp3QTwyBArvTf5EQDsOPt9lOZhJgpuxBsd-JOceWFlt-aK9M9LMpNtlCtnGNWHNbP0rfcXdTuC8acF54Xe041BinYvYqod3Qy6Mx8RtGgzpWhqxasXHm8fjlHCNw5MRixhBR2LQljnpMAw3QpaRg=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Elysium Watchman",
@@ -2249,8 +2342,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: false,
@@ -2264,7 +2357,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-033",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xX0NDvk2krN7wl5dbmi2OKTnintxRPufgy_pdWL9tRdriWiOcmAKHPa8LRIHnFjXGPoUe6A3fkD6suWIFS8C2kYNOlkSVneq4VdmMK8-b3XoWTFD4UNGUkgsOIrzXMv3NPDZQh2aHobOyPiiNQYay9PbOkd17mVEnralH5wp-2LQTUdANYOBROM1BNEXlhX1m2-6Z5jwZPFXZxlo-wEgExbN9K1fusJimpTUJCdeT6FL563Vrjw1_nwkJ7I9zm8bg=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Jean, The Escort",
@@ -2274,8 +2368,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.MAJESTIC,
     nano: 2,
-    attack: 3000.0,
-    defense: 8000.0,
+    attack: 3000,
+    defense: 8000,
     direction: {
       north: false,
       northeast: false,
@@ -2289,7 +2383,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-034",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xV18bvk3PRzTELyz-JX_gVLwVm7tGezONLboh0aJkEpX-24uIvN1juhCq34C1CAwLz9vBz4gAEKGIxb3engHNCiSD0pqIjgyNwm2GXtk2HZRKPybULHOFdS-MWjOp_2F6Q_azXQ6j_yLciC9IMnF_ltdralvwD-fJrTqL18L_mCf-euoXAhSXObcl2_gKYq2hqljdzfN3SoYk_EdiKKZ6nkNHo1wW96bt9ih3pLvaVS79gRLCsEpm3R-SHgXa1BLA=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Knight of Elysium",
@@ -2298,8 +2393,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: false,
@@ -2313,7 +2408,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-035",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWaWLGPzbQFCRggpvaUH84uybpF_Jk6vOuZJnYcf3nvSmHUSQ6n5IeC3DcI4wofsUYTZ07IvwfEztI4rwptcqzYOEWtFg_KiUaaMwOepfCBEIK1rNTVJB3ALp8V4xQ_PMOCcYmsfYY-naGzIfDThPBoGJwCdp3S11RJXU9BE64QHjGL7dQifqj0nRyEY1eDH_WRmxNX9i4mgqbuJxqCsz00u3T_7AkyiZiGFK8ggZa2K77gqL5iCYLgVS1eeZTfAA=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Palamedes De Sarradins",
@@ -2322,8 +2418,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: false,
       northeast: false,
@@ -2337,7 +2433,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-036",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVTRdKUvPjb6dpjZsHbb1F4PHONENmlldGAoJ7k9Hsm_KK0ILc4LhOpo5U0xtmbsoYJOD7gYqMLvrLWpri8jlyllagYraKchPgb4dipYhEV6pkLdEBZdVV6p7rADH4MGkhXFI6Y7vx7jwpSbIpJiKrM5lOXJjqAvw9DPg9_jbi5ApOEJm4TpofB1Y_oVxtKcFWBa6QEB7_A7kKI4uQ6oJLI7f3dpQGWlXYfAYjLDapZwwyRbllRbbdSag1Ipt6k4A=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Torsten, Bavest of The Brave",
@@ -2346,8 +2443,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: false,
@@ -2361,7 +2458,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-037",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWdi4mDUMFf18Oapo5M7QpSDfTcywPLPCD2dZOz9h8fqz2jfswGAAtSgD7zAYaY0vczWnF63mAxfV8wecWaLNgDFg1QepQBcTy78fsFcr44sU6BAKMp9ryRvSXPL6AR_JdjY9Jt3iblcmFxBZ8AAKbBdT8aLdUjS9ynQWTIAO1kDnvt4rrey9AkMkdTydQEKxf0_lcCPcbs9kUjPWYpzoxADxjVUaXpDdHiMI4V9Tes7hDvBvC-WbPn7-mPBQ35HQ=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.TECH,
     name: "Glorious Shield",
@@ -2385,7 +2483,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-038",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xW5e9N0d0ZoeA5ecu86e5Yd6-RijMWsUUXGd2C8gFwGRJq0zkxTkKJNppvp7Pfflskx2Fjv8A-9xI0YlAAcmmCYzUtVK-Iruf-DISBLdLWzykxrSQ_UUF_BsXZHBJuOVQPWm841V_R63fFap16mGuaS2PEBddyPlJgonvwCNW-_tC7JNf5E1gJigkg5piEk_BlC3vVGNby-WSIHACyG7Ow4j9axbheKWw9oGSNnPZK-24_NlmsxwgRstNfaEq495g=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.TECH,
     name: "Glorious Sword",
@@ -2409,7 +2508,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-039",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xV3IIUA-vl6vh8eDl_NQC7HmLDwI1C5_n7k-1aOt_7h1NqYNKUwMEZaaKo5G5EH4WjSGFSyBFf1xKggUjUoAAr_05kJ5g5uuOjCczrTBWyU3t0Dllg9SxdmzNZGzawChNIkHs_aSrzD_jE4csFk658YUJyWIny7bd4DH4LTF2A34hq67cnwHxfwQZRd8jJdQpnyRKx8mozsY5bA9SkaMBLMVmEER7htzXcieSZd5DIRhywXQVEdpYHyL20MhBzP9w=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.TECH,
     name: "Graduation Sperker",
@@ -2433,7 +2533,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-040",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUgsq_SzjuC-n4-LMWTuyTORmubSLtfSpqF7hR9KrvxwTlfGJTl1xG4YTi0KurfvBQBeka5KjGlnHFO3D3HCfD9BJ9pCn1tTd21RoQtb9RRKgxYdJLeuzfYrRwhFyRouAlQXdW6ZPGNhdwqvv1ArBcqN5idYnztUKsLmTXDdjsUrid_fFwjfTvrgJLl3hVNuwM5A12jb8wEjDXEhixaz4Y9aEp0VSJ2HmUZ-vhoILHC2mbnu5Jji4buK6K456cySA=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.TECH,
     name: "Holy Deceit",
@@ -2458,7 +2559,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-041",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUotR4013hT7bit_M84j2S_vGGLL5KvnKznXL424XPCLwm5Nl0OmWFPBzNzxy6vttiLD5VnJzNRtaonXXJ355yxgIfwvrj_onJM2APYqFh1Io-OjhhBvwTYs32U1mKRp8Ypw_T2fg7vyzmgH0F-HH7OX76XlZ6wFxH16dQcPmhLeUx6wJVtgdRCFBUxnL5XJS9SFHkBTdT9eX5QyVy8FJzXu6UGN9qhsAr4Yzhhf5NzLjeQ6qHkO-S5Ye-DNPi9=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.TECH,
     name: "Holy Edify",
@@ -2482,7 +2584,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-042",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXXjoQXKKkqowOZah36eDKwOE9ovC4UeiGzAAmUJ0g-wZi0GP0Zp21p5UQEGDORJFXNjOm53nyqKx6XaysoxCzyNVWmZC2rUghr3EYU0REJurg9KsVw8HlNO-q1sO3XfdUvYjOipEmuFK_8XbGlBKOryG7TkmJ_g3O8v-GWscy_gpqN9Pd511G8cu2-w1MJDyt1etSabh76pqCCrvH2Lgj-k_BDWQe3FdP9XIIdouUEl0XeYCq3_N1qlhiZVAUe=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.TECH,
     name: "Unfair Exchange",
@@ -2506,7 +2609,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-043",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUChp-KkTfW7MHhubn2i9S-tQ4LdVQPOVYmk485QYQUUB4t8T1yaZmMCPGitpRZoMpbiHJ_OXcuzP6QPJkkOz4EuuA9Z_dPl4IG4EeG5C7YMDnMGLEZD1JEakC-FX6IQki3AjmVv5Ie6fJZBbT8UBPQTsPLLDS_sHm6f7gmE_FNBjGlGkdmAtDZLyd0Z0msl6SMG8zoCd2vZsIczkhDKjjuoyuNxkQhxIu1XpIPPfokK0wbPiDNBZyLSbl_lxCe4Q=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.CHAMPION,
     name: "Xerxes",
@@ -2518,8 +2622,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.GENESIS_RARE,
     nano: 3,
-    attack: 5000.0,
-    defense: 13000.0,
+    attack: 5000,
+    defense: 13000,
     direction: {
       north: true,
       northeast: false,
@@ -2533,7 +2637,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-043",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUChp-KkTfW7MHhubn2i9S-tQ4LdVQPOVYmk485QYQUUB4t8T1yaZmMCPGitpRZoMpbiHJ_OXcuzP6QPJkkOz4EuuA9Z_dPl4IG4EeG5C7YMDnMGLEZD1JEakC-FX6IQki3AjmVv5Ie6fJZBbT8UBPQTsPLLDS_sHm6f7gmE_FNBjGlGkdmAtDZLyd0Z0msl6SMG8zoCd2vZsIczkhDKjjuoyuNxkQhxIu1XpIPPfokK0wbPiDNBZyLSbl_lxCe4Q=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.CHAMPION,
     name: "Xerxes",
@@ -2545,8 +2650,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 3,
-    attack: 5000.0,
-    defense: 13000.0,
+    attack: 5000,
+    defense: 13000,
     direction: {
       north: true,
       northeast: false,
@@ -2560,7 +2665,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-044",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUgRZRW8ysHcZwFAFVRd_CASji1qzAWRTj1q64QZgxxPucCk9WpOVykJyCtQx6vXQvRw3gKL3452a_tlJJ2Eu16NacSWTOoNSla3KIsAJAm2HafHkHcJvEotNFH8Qc7sY-M_bLMuXnExaVf9Mg7R769FoPZs3nSFr1ob_93h33lYXZSODuz4nz2kgETLRdqUJ11-L8oWuBNxhkHp2PLi1RBBezsefwdQSNqlIa72wVpdazpqZYWO7cZWirKCK1lEk0=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Artemisia of Caria",
@@ -2570,8 +2676,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.REGALIA_RARE,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: true,
       northeast: true,
@@ -2585,7 +2691,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-045",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWNdnkhUxMxLOUyzgjQGIaZCESkiW3R96JNtSll_-_wjO5LQ7XQHcKx1n3FQ0q3I2ADwdv7s-7UaxdcwoOyc2Z4_xce9hK3GxU6CsmF5xZ7SP6xK7iNR_I1UJeOSmqGx5LWHk-w23tmKrBJoaQxU0lR4WqVtEK-m-UO3DpD8Kvyz4Uf_erIAARGY9GR7THDqe9979IEwKgNga9nOcGRKvvf4JyVRw2CEUGipTQ0D6D-nzOko0LR8ubPwOveQJchUZE=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Bubares",
@@ -2594,8 +2701,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.REGALIA_RARE,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: true,
@@ -2609,7 +2716,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-046",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXbgoFKZy9gpOclB6cbAjDHH2Ozp8ifEEacb1Ug0mZec3CVPRpq6mpahHFHel7J_UyHqDUrJPstfZjXB7V8qv2yT40US1zm7xpjgM-_L2gWIDfbmV9Y-yZ2cRBWqqSKLuENx4aRFxh5b5P92znDFPy44wfuDgLOwyY2lhQ91VDBefYPZVWi6YqI4HSjgpZ88EB-b_XaYejVoJgbqfwuLRV1sCPdnr3ouzWPLcfCvPuSQ4vYViWt0BAX7neHTs7VMw=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Expert Reproducer",
@@ -2618,8 +2726,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: false,
       northeast: true,
@@ -2633,7 +2741,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-047",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWYs_uYgkENXb3BGhNBFT40kqSagUqNplAMXRShoHuH14yLlG64i9bGtSju9hjggOXRrYYZqOlTtKm0l4wPbmRU5QW1LPh1Wbfv5_HBQ51H_ARnE7__-PCMx2jaChlDhy4s1Xy2iYX2wCNqCRJM3LrdnopX36PfNuALAjNGNvJJ_N0ALs2LGvvN59FONj8Lnu1RK-nsoR6iEJuRxW8criJn-jJ0n_x_bHLnw0DkM75mcmCxuV3G3Gwg-l0ubJS8=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Otto, Reckless Motorist",
@@ -2643,8 +2752,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: true,
       northeast: true,
@@ -2658,7 +2767,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-048",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUvdgsjfO-oDFtSVZeUDjwCEE34vQZn0RwI7Ro4PnQkXmgNf0fqJHYUS3C5JPKftZxuTmyAO-PZbiAGqXqUVzMztjTVDPXDSl_PgS88FT1pTUUpoNCIV2KlFu2Ovfpz9qURruFeDgB2CsRwBhAqJq9NooTmBiiqKb62GaSXGNajwJHpNOewOgw4XlDY8khPu23eNqjnO9RmUYshDvMFAshpnitbpDpo78N7qlrWySvcbKiwwQeg4TMO4cIk4nC8F1I=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Tetram Nestos",
@@ -2667,8 +2777,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.REGALIA_RARE,
     nano: 3,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: true,
       northeast: false,
@@ -2682,7 +2792,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-049",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWoJrSgb5GWpASpL0HQOMOZ6rDdzhja6l1NNLwiADqDZe2dSubaZoxtiA6gMdgZ6FDFxk31KYBXZrJgeOPOodCNM7SvTDvySNyGnuI3935B2Aqsw3iBL_dQqnlkj9VnXaFJsUMuT7zqSkl_FARdiuNy-911ILnMjSyfQdUX_qEvnAAlPlty03TLFp2Y837VNlRZzaCqDNyerp7pKjg2xwxU2YQOPeJN2JqcZWnlEnij4TCXVqiK7xktCYmud4pZWCQ=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.SENTINEL_TECH,
     name: "Gate of All Nation",
@@ -2706,7 +2817,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-050",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUOe29wKAyd0LoPbqa_854DRp-2DTPEGAPaIJ-WJM09CgZX0NI36whAawJoi6j1VSXncCgr4MyPTOem6-G6yAdA2OS7RnxZT42IpgLJusF2tgyCni2kvHQ4EYDmT07oAdaYGFR1B8EQDd8ppeQnKkd7uXkYshXR7_aNwUJeflNmyvAzjCNraY4w164VNAeX7mz_jjiX5SWnjwYAu65FAm2MAdy-FxEZoWyzK6FjMmN2T7kbohOIQJhW2pzxIWtm-g=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.SENTINEL_TECH,
     name: "Furious Combat",
@@ -2730,7 +2842,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-051",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWE7kgxTeB1pCX4BLleLFGv_TFAUk3mlpdEypNbasvTBQowHRBOBiNuU8W38bHMcN87sV8cTuXXvxDVq5XTiRU5Z389kF7RIAQohpO-tO-mUst7oJB73-CfbchT4bF4lDyRjZrKIDHHgksuVCPC2T-U15iYQL3Nhh7Gw5GZyFoFy_DH1SWIr534s13993DUKFe38U0MCTcGCw9f28cT7jNEXxO99zsaGZegFzn-qYT7zygtATovmiC_FOgIS-37vPb_tg=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.TECH,
     name: "Mechanized Reproduction",
@@ -2754,7 +2867,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-052",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUmDvAngmHu8Vpv7o3y0zczX95LjtLi-4697ByY8Ns6kJAGtd2WdVQopaD0AigePKnda71sjUVFGZlIVLg3nxARJ4Utl8PmMcJUxy3g6itHQGTaQUlgmENTxzBw289LFVijOU5pKx84LR0_on9SladzPU6DNiZt3k0DhJI1JF9T8wazvlHY2D0nZHR6dlJTvMj-5oJZKFGGLJvTr4RRDfuGJ4sUlYI-Cuod7aBscF193LOCcjOWK4yLm129kqgG0Q=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Amateur Technician",
@@ -2763,8 +2877,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.MAJESTIC,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: true,
       northeast: false,
@@ -2778,7 +2892,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-053",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU3nEor7TD7OUBzDgTjstdAcQdqaRhhCDNST49M34DiViSCo65L15Ua2Xx0oW5zp-jCS81_ukhMnLUTuOWrTpTkzNWvDWSMedSMFtk9W5KB01Drn7xnsWC8zH4b6S82wZ7gNQBoZOLOIQEawWi2JN1nynzz45gt-l-H-dkCimz20Rj5z5KMn_pyNkuJZ3H7XkxS_xYsBNa0B-o77XwGMBf6kph1-joSKpvwH1P0JjHhpMmCSuX4vS8S6yGX6BaURA=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Chief Mechanic",
@@ -2787,8 +2902,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: true,
@@ -2802,7 +2917,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-054",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXlDVHjq3jNLZAjZtcVNPJc8bcn4FGW9ULjlXlQiOxKU-qCgW5LQzIElNZhnHslS3CdZ0vulc6QMf5XZNoWGdbLmZUTYjnrAtplhhIva1fnJn62tQS7ojf3SyNNJxGOARDfE4Ch4yCxEyLJSpUadCcMx2XM17iV0ZiuFmnUQe6t4ZZh-cvSeH77ksLnWyfKN5PDgL7cKug_3Xh4I86qXbIWsgezoNPgWAZVwxrU46e9ZjkCDxA7k_zQioJcoR5nJw=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Frontline Crewman",
@@ -2812,8 +2928,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 1,
-    attack: 2000.0,
-    defense: 7000.0,
+    attack: 2000,
+    defense: 7000,
     direction: {
       north: true,
       northeast: true,
@@ -2827,7 +2943,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-055",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xW5eu3m5V9VFoLQ0dZFHYQxULQBYE2jWycXWJWLzyxxSyyl8gCMy57QVjo-qZYte0z8ub5GywbMrMcq73Qbx9R78tf0SpoL2rjojEecEz_r6jzNKmeFziMbAaVoMFLh1nFfCLPG5SyB8U4rtROL2tnXYfZD7lFK1z3MzWv2N1tfZJp9dxshKOKVjmVENRwtMMnHq98jEzsPTyn21ppr_5YVnc2dCXYUCQe_y6DD7sR-ZCC0UG7zDbNKnw4qE47wxkNRuw=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Sand Carrier",
@@ -2837,8 +2954,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 3,
-    attack: 4000.0,
-    defense: 11000.0,
+    attack: 4000,
+    defense: 11000,
     direction: {
       north: true,
       northeast: false,
@@ -2852,7 +2969,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-056",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVA6imqKGoe6DBTCVJnBLHK7Z5fmbxlSGuXZeo-AoMtLhypJDZ38tH2vVWLggB-xTU7RZNJxT4hoY90dryohVT8I56u-SjAaOwHwoaVvmFW2sUXhjZKnFWfMKZHcVXK5IU0hrH29bNgNxYu_5hcMij2PDBUcxpUU1jh69p5PEG0RiaTEKy1r2tT7Uvo7wECD28oLpRScEswkD-IDNMy_hYaDE_DJaerDYoFnJAv9QxV9L9yGXuj_33cMpBiq9qHXQ=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Sand Destoyer",
@@ -2862,8 +2980,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.MAJESTIC,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: false,
       northeast: false,
@@ -2877,7 +2995,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-057",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXVLud0wEsnr8jLFDyS-b8rG4b6tDzmUfQxL2X5Pc5IUg0_Az9Uz83v99c3f4CRZgL3oBtLYZmxgBSCBQifOXv3z--Gzt3V6-0rClaMPRNUyHMzp-QFeQqOckmDaeKcdQigDhvA9HKLJ2qa7jBtq7XaNQrbSVGEIUIzv2BpEP5gT_A6cQlkTuJvCIhFmIo2PHSwM5WTGXVTmeqazydO4YVks9u0n2cNDjbxcvT-AtCjRgBe73Y_p_XjCYqkIsCkLA=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Sand Digger",
@@ -2887,8 +3006,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: true,
       northeast: false,
@@ -2902,7 +3021,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-058",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVklLrjPRuiF4x3UEhwl3TFcgf0j0YQizbxXtziLGPUQocDssbbgOuoavEgkT_wS2mIC3XSwR1U8CGdsBizxOdybGC-NTLH-lo0UHYl4UUCpoiSlfjsXiv6CmPFygJYEGRKqjqxbdz1ULPX2Pg-z0Tjzfo1H0J92clCUEpcokSPgXiKPisvyzESRLIV2ED6qiMO4l9QmhAj8zc0kYrjhICo7Zbhs12SdQkBmCQqo2neC42xQ9RcblwPFjBVUR5g=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Veteran Crewman",
@@ -2912,8 +3032,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 2000.0,
-    defense: 7000.0,
+    attack: 2000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: true,
@@ -2927,7 +3047,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-059",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUS706Zbsv6nGoqZUTAXji1eC7uDjEbFXxxGcl4TJF56AIZfCqVxw6ZPQeF8CCKaXKJIOSPQIP4LyFg6_vXA-2oarC6mUft7tL03aQd8D3qUH-LW_E3NNr6woRn_RZTMFF65iBfIZsM2YN2ooRXKSt-JQEU_kLtLWVUkrHPWAeeTrE7c0OOqY16X2Le9hvYS4oOD7MRc6FpAKh41QxqWdgbzGQ8EeFflAoRuCFzrC_FJ-4PKSs2sLodf4pFs5HDMQ=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Vice Chief Engineer",
@@ -2936,8 +3057,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 3,
-    attack: 3000.0,
-    defense: 11000.0,
+    attack: 3000,
+    defense: 11000,
     direction: {
       north: false,
       northeast: true,
@@ -2951,7 +3072,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-060",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUWePYDhaLizZJDRVRCcUP5Ze1PlSOW1voEXT0hLzFVq0MuibKIer1WmapcPudmKvzgM4X1VpvqQ0LZ4VGVg_R4SVn2uPoZSL9Db8NMZ5WW6SuxGCKojDhjXzJz3cLM2JThh7ZPkwy53B2b0sqVg-6-0E1k8thO3_ezgC2omuzLk2nSrjLD3C_G7MbwU1Nk2STYIOKoxGtUKm8LMsbgZyeYWNWeiYwIZQVgIc2MQ5V_SMu7V_4n7F_vmjW58C_dHQ=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Wandering Dealer",
@@ -2960,8 +3082,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: true,
@@ -2975,7 +3097,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-061",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVn6L6ig8VI0hE6fUjw-0XGwZytd8QZn6mxdCmlMuwzvyybo6QMS_1wSr9cX0020Eft7pJvHgL4qBUuFH120GI70wPTmQNt1AqzTM1C1FpdEFz3M0e5UVME_l6Vtw3ZJ7t2vAaEEUSH19r8NjCnaQwJVV24888r6IB6kdpLqG8309Buh_ZSkN2g82TbBgw4m73JR2FYVRfFK9VFgU_Yg82v4Cxt9UTUhRpUWyWNGrqfrEKqISxskCw6KMTBZmdDyA=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.TECH,
     name: "Battle Plan",
@@ -3000,7 +3123,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-062",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU1Gm5fvtSFjOnTOKgmBS0h9cefDhR6be2vRpyNuBWGmJULWJy2o35CYA7LPPjB-IF8ZUdx-OyLWwhWg0Xc2PQTv87CZ3Y-bS9yG1cXdPRihNB7D1A6V26Gg-qYeeRwh10nUDCKwseHXEr4c2sFrySoWbVHNW9gyncK6gfhPtxBW9STziqhl7s5YOV_gNp2C9-2Onb356wa-Iq0Ns4zFzq5pO8tX0nTvC6svAm32QwySPPhCP1xHqvddljwjT6VzQ=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.TECH,
     name: "Fish in The Desert?",
@@ -3024,7 +3148,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-063",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVs6TyqPpHSEui1GTBsS_w00IT6esXwBxEhdDyyomAI-A2DUiLrWjJUdSwoXQhuc7_-lK09xtb0ZcyGLFfFyDvHX0REv7i11Xre7k9-0Asw4S6hM-SXLSh0d_pySNzYI61klrNBDuFgby9E6dvQCdU9zCrHMMAOd8B-Filv-z2A8SyyNIE1NYU5kMqX42eUK5ilXik2wyYuMHJQJeN2lBOofF7Y6JJvoIUXWrfDcAejBNHSBAt0emjlNeJ305dTCQ=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.TECH,
     name: "Useless Giant Scrap",
@@ -3049,7 +3174,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-064",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUfGLT7SxuFME0A5uUuhlQMMQtAR-Lia1hSAXQQ_IaxCSF-srniNRvyMfEmWIOUQpiBI2Khuq7Ft8BsXmj4W26vEWkcKWjSUwYhiNXL7iXzzKqdr3rpKiiyOFoJI7J64pMaCRx38AwoPP2Zq8jmniJxim86u7VcY-FK-7ArdmyoakbWiNPWwdSNI324lC3ENDDuj-eAdIzMXsOJyGOTZgJ7hqWt7mNp6qZCXC3MOMHyQGdt5Cz0x15IpI8upnJ6_Zk=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.CHAMPION,
     name: "Aravind",
@@ -3061,8 +3187,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.GENESIS_RARE,
     nano: 3,
-    attack: 4000.0,
-    defense: 12000.0,
+    attack: 4000,
+    defense: 12000,
     direction: {
       north: false,
       northeast: false,
@@ -3076,7 +3202,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-065",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWMNById2A5cKxIunYUOu9HsUAN9g-ivUeIssIF270_CKEP_LUhlNpPYJuk_UCcGt6ZVErHt0_qlhEnKNAPlMxstx4d1YoUWvYsY9W8jp2oJTkilnwvokIvJm-Z40bf4LYNrJCuSJkEnN-DYQugsTMza8Jgt-yaJzvnk8791fdFdlMQ4iDTQ-Evrpr8ZfXjRf8k2ZiXRJOGkGrzPlSTVWI6Z2vq9GnQOwE1H2nf8aTxR883RH_a39IgA1fJE5QoISc=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Ancient Dryad",
@@ -3085,8 +3212,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.REGALIA_RARE,
     nano: 3,
-    attack: 5000.0,
-    defense: 11000.0,
+    attack: 5000,
+    defense: 11000,
     direction: {
       north: false,
       northeast: true,
@@ -3100,7 +3227,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-066",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWqXcZjUxwE_AqEp9qpkgkmNuLy_evAjgeOGJ_937INf7SGKYWZg7WjBKEuOZBXqdn5jWV0DMOZrsjpWl73t34kA-G7J6UHZCXFZVTjpZ_loKTLAxnD7HfvL7m94dqWg_K0qfTwq5Xq0ZgZa6qJ_18wZxb6V1eQI5slMH3dADZllsKAmOi6wu9hh5LnbwAQnG350GsRJW580Ccdma1ZWQwohibpU_fOegXqq5cfXKJh3UBh_J_nVre4KB6ERA1bB3M=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Floral Guardian",
@@ -3109,8 +3237,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.REGALIA_RARE,
     nano: 2,
-    attack: 5000.0,
-    defense: 10000.0,
+    attack: 5000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: false,
@@ -3124,7 +3252,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-067",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVw3KYMKwgfZNrcMY9EOgqCyAHY1U-zXLQk0WAA7ljKhXc8udUJ9Ub-maDL1B77f4Yo4CpYQatJQQl24ux1oJKEEfhmmIxX-o8xFlB6c1TpwEGq8gIeoYaC3S4UjC6o62JUwkc7o1rfLGoKGMdRTBrM1ifswIPcLYtzQIVnkFJ3tjeY2KgqGxT4G2qY9pGOsqqeON1GtiRSEdIgGqNC_sC60HQgaPQY90Pr1hsNZqeTkTFmZwTj97AryuGyuQIpuQ=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.SENTINEL_TECH,
     name: "Sky Drop",
@@ -3148,7 +3277,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-068",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUry74QZzMjuWv3csa7-IMDGvQsunmY7IbFZ7Y5na1RPz2EtEfs0J5Xiww_iRj_XNpyw2AFVN-sBkYZD8sr0jElj40fVpGCc0uUrObmD8anz4OhFlFaESpDBQuvsEjg7g43lTjmu4HZWVObMRyYXBhFHdG4oAl8nOkaEBQhYUjItZzp3Udbn34Je1dOve5PBGxXN5xFKVTVTfsmgVip0XQsIBUO233QirLMw4DqV443KDVwCOQN5Qx8VNpydjEkSw=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.SENTINEL_TECH,
     name: "Thunder Strike",
@@ -3172,7 +3302,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-069",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUCcY9zWOAGCmdGONgVtLvOr-JSCHDSl3E2pw4I3Ix05tN4YViuHGbAV6DGHA-S-HrAyBZUHP05Z4QVTNfo1vZDDZttGDVdyHg6blARGxb_BaFtAaiaEV2AtyMFtavQOSlQBDiwr-lCSG1VvPr80PldHDex6xuSYYc73EXnPSPWhELrNu_p9eXtR8MpN_EOQw9MpO0Y3oIE0Gt-_-5m-r1bPBcRbZ6Yv7NEmvD0FpBKgs6z6e01o9_KllqqtCsV=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Blooming Dryad",
@@ -3181,8 +3312,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.MAJESTIC,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: true,
@@ -3196,7 +3327,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-070",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVi1_vDaqp-jfEYEiDnFfRpb1-yTaXJvD_zqYRz21Pa2RdQ-kpDtJYXU4ok0exctt6tpUT51EfeRDTbqBqDr-k77L4irEr-R7Xoy2iVJCHfa5aH56TLWKK6SGZbztT_Y4b6yywcXa72X0xpOMCniqsXXHK_q4JFUMNX4BuHDVYcsVrPbJa1yPnkep-xvccRAFzEykQP0v3L1g3ilMBfFj7FP-0RFQxwyQNaq2y_a2oUfM7xq6OCAGhDfscxx31bkw=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Sage of Abundance",
@@ -3205,8 +3337,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.MAJESTIC,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: false,
@@ -3220,7 +3352,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-071",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU2PeDx2Ym-o5gGk72VnLKNGiyaPgRYZqlwKnzXRHbLq69XVo29ZKsV2LaeLJTrzZct2a2bGppM02h4bTHp-_17AnPNE1be5UdWuJ5AYNvejgyDAtIV3t-II_PNns3z-AYnLfY5S2KW_F43nKcVSyVUePPbv74FxiPc6tmXt9QQpOVk0yCCmGP2fSHmnmdsQjLJpwC7xCBH19NLKGXEBhuJ9Cs441thuCF4YxaVbDCDKZGoFQa9KdWYPuA-0mzAiA=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Sprouting Dryad",
@@ -3229,8 +3362,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.MAJESTIC,
     nano: 1,
-    attack: 2000.0,
-    defense: 7000.0,
+    attack: 2000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: false,
@@ -3244,7 +3377,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-072",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWtf4vE23H4Lk-WggKPIrugUzPdjn8Sc0kxKGLS2ucbObLhUvRZ2jxkYorO7aW2S9IX13RTtyUYCBu-hyI8y79aDd1vqzaW_X4pteanqu6OHVQVqg6Zw06LWCkimp0c05EuF6P6cI1-68FeoAjm8UpqySq3JJ-tq0ZKmF08wlDeaSU_NPzI-wJj2CfBUq7cJFU6B83bBz27tT9LGFye5UZTH30h93uFZL_LYFcivU78nNEsrFEKOtNKRjxtTPFMMg=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Suparna Air Force",
@@ -3253,8 +3387,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 2000.0,
-    defense: 7000.0,
+    attack: 2000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: false,
@@ -3268,7 +3402,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-073",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVZiKs_0kTjio-fKnpQI8tgGR-kIFxIzTOfL0aJPJLJkKQ-qYyjqyE-br3FrR1Fx0hvsHoViY6IhGYaV8qX2Fc5ByWY1KrEYSexPM5Qu9y0IuA0bgJxQx1eSJFeGFaz88DH-sBTtoLkdkh8yFCM8TkUsg8NtRlpFPt8Fvn_Nqaxphtvs_nr5mXFy9kz6RTlZIx-s-6nwHVlSCCP-nEj6BCd3EwERYwuqVmdExEJjx6L8fWdm4rshEbRr4j9WSaq=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Suparna Archer",
@@ -3277,8 +3412,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 2,
-    attack: 4000.0,
-    defense: 9000.0,
+    attack: 4000,
+    defense: 9000,
     direction: {
       north: false,
       northeast: false,
@@ -3292,7 +3427,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-074",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU-8fUw22O6LMcbVD251SlJ_D2rNCa7m5IknY40pTLVGIxZ8IDGpjzIe36_useImSUvM5ExPdYC0tWwsUWCT_PfNNIDZUVE_xqlob17eJlQiTVDnI-n4elki6baXlkWbvj5wkqgX8OKPKFQ4T57aIXRNTViErm9nMcX5ImQdZUqsy7YrmeC44zrgBPMQyyS9jAoFOQsrXVHMwcMhSg9eq6P-yQBK1Jbgbxpt1-0eFQoFVW_ObZGbtbP1-Qy8DpdKA=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Suparna Crane",
@@ -3302,8 +3438,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: true,
       northeast: false,
@@ -3317,7 +3453,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-075",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXuKpsO1AC21S_LGaEu8rRqYNVQTJ9xbgUx2kzE80HntHIifZgxAmFVuak4uQT5xugjABNVzRDkGwWr7EHvMiiU5W1EkwXX3MkRpLpIwkKMF5UsNLXE9no_HekgKkN-ojjKZHnhMn2sm8LC-u8dsgDpUOa6eFY0c2jZQw4UUrhkoZzKTbOZ-PpZT4QEfVawK07mUHW92a-a47rb9U1RhSPsbGfZ8vh5BlRrvNxzt4duEkYAIdO-VS15y2cdjQeQ=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Suparna Maiden",
@@ -3327,8 +3464,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: false,
       northeast: true,
@@ -3342,7 +3479,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-076",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXctMFfr-Vw3-jfk2EqAne1IC6haYaFjMwUvhDmc4HfXFJtz84BuQf5oJTJsab1WMNa3s_aGOjSMoLFER_suRrpG6MZ_sLAfjThpW7YRMr3kiKO9ds9RALfBjGaitpydF5HzMdiiLSSjewPmhDe_9WtierrPwVrmc-G1wO-VH-xAHhf3xAogM_2pk-qF-oDchqZa21vgvEoRb7cwGeKo0XHQnWOruW8nWxvmV4wnNvLXXQtRH8W3tSYXS5PRx_njA=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Suparna Mystic Drummer",
@@ -3351,8 +3489,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 3,
-    attack: 3000.0,
-    defense: 11000.0,
+    attack: 3000,
+    defense: 11000,
     direction: {
       north: true,
       northeast: false,
@@ -3366,7 +3504,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-077",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVbaN71JqhFsCu78efioBIlezw87hmbey6RnUr94Z3XGQhLUR8Z3SH_6MRxHhew1gjT-MG7UNoEIGKKxebwLkHQQk8f1ncKKR_DX5Ccr9-LN3W59DWf7ujcC7hzeDs1ZrsnJL9-QYyuHrgqpLfNtYqAq9aJuBwR1gJBjXFvY5-0P3T42rgTGQr0tByz2j7fx0JXwD_LwPyWMQtwqEKlV86A9q05jr6-vJHfR1FGg_ELiDvfZdG_n-y90ebDv_vJcQ=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Wild Bear",
@@ -3375,8 +3514,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: true,
       northeast: false,
@@ -3390,7 +3529,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-078",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xV9EMadKRLHtyniTINkTIyWo02-qPgY6n4ZfviXFXobVtJy-tkAqbzxoZpROnwzfCk_k3cLUXSGIpYDErqt1gtyGf9a8gosFn8JFdKQRh6yLYF50uajMRqhu_q7GbStDZKSQEknLv-lQOfFZul2LFSHxLFllJSjFOw4uTX6XN7YrEISOD5n8xeuDYRpr9fgKZ2LXNgo0wmlaQwgbbN-wUyLMXmzd7U2G7xlVG8PTiKl1HB5wl26zuyyTHDKDPKMYA=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Wild Deer",
@@ -3399,8 +3539,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: false,
@@ -3414,7 +3554,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-079",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXxFmVrmSH89ypcP3xSdUaMN4PYTmuG_VUWHcN8SdJtv3_8hT_z8EmH0e3_k8gLvb4GxvRUw4GSaI_dhJDffQiCyIGfo2hgxYQucwnaq0c-6E17JgnCixv4GsSkKKKxM-z0XOiDZbEBkOoo7Q6KjuMmHIc8Zol17vahT4G6fQTk25guquDccAgzpPUep2R-t-NxDGb5ooTS9Jnb7XTWBtgf6NWYqwv0IQXF4UlmKRWZOLqun5C849TiSguHsF3_gQ=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.TECH,
     name: "Aerial Assault",
@@ -3439,7 +3580,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-080",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWBO3usUd2npggIglL5Y2JX3JHWC4bgb_vYAxtU5nSvJQWg60BVh3jv3_E45hFjL4ZWfifnmYSgqcAw_NH2zvOVNm3j6IhsrH7Hm-QtkseTYfOOu8CETZNDu-wrtEAWZ01757az_lhQAR0sYSd1lCF3EmjAkl31Q8xhK968BUdkDPzqCmUEOEBETRAeKKm6QcKn1Eaij2_Tys21j8BOl4bIw3_WXRGgqy8-kJg1ObEsIuGpQyC7OmnTWaflAN9LPg=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.TECH,
     name: "Forest Song",
@@ -3463,7 +3605,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-081",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWQ6tpureVCNzEJlfrf8tCPBRU7shMGLmHcTbD8HVn6tAHWiYhTcaeAIHAHaQYbkaPv4fEEftCAcR0BtIzfiDEFHcgc0RR-dx_1fOnTb4H-_4czXRHQ5osQ0nSsRfXLwA7e643m4QveH9H2xOHDU5kt_201pLkA32Blomo0khI0PZauN4KX7ldnsE4tJSq_XSHADZzjzooMYmv6gRCiyBY6FiNiWs6mJnfvpUFSAWwkUQaN2XrXnBde6tysF9rWKA=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.TECH,
     name: "Nature's Revenge",
@@ -3487,7 +3630,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-082",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXDw2ZBPcgL98-sB0R_zZ5v26wWDICld9jbJ3a3EwKS-5jbl5auzNK4QOQ3jAFNo8EYiOhhpDdc-P7SMOEpMomgdj3dADFSWYrQrCnRCnypE43GpVKSxyI_y0zsMK_iuoBBublug8uy6u6syw4F4pe6UJ14RksoPZjSAvLFhhHgptA4DNs6fQOUMRG_k69Ax2LDPLgOFPkek7lZlSrE-23PqAXLDxdpBaWL_V3ZK81q165DXN8khH1YX2Vl49YqVR55cg=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.TECH,
     name: "Nature's Smite",
@@ -3511,7 +3655,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-083",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXgEup0-BmvhZRzrnc0kuXrVTkr2f_W9fPqT418nZxs5BCI5i_VH3HInmMAlE59xichrYoESDHVneRsvNUALKK1Fdo51u09DWu7b-VxA2EGYDQzTbSlVji5ncZ14ES2Y0sh1MT-v_5pn5pPfxQjGe56NjUUmO7XGlgwc7xzM9JsG58NnMyHuPsBjq0NPT6MvWf2kLm-GaVweWI9gxRXbjgsK6SDlClrJwBNmngalmZx1WAoS_UK2JNn6XT-MWe7ig=s175-w110-h175",
     faction: Faction.SHAMBHALA,
     type: CardType.TECH,
     name: "Wild Flee",
@@ -3535,7 +3680,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-084",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU5gPat4KWUog4iETR-cpWPq3iTnffc6okbuOX7i5m8k501QQrUX25oIeWA8vsHA4d3cX7tDyQ7A6qR2r6tM8yo4k-e8NfzKCXs18zttfJNE4KBAZeebm5WWOGC8o74cEdPnZo98PgMHY5zmmVVRheJhJvIYbZeAVeMXTHJxL3h19OG7pe_Ca2q599XbY9H4UnyVFIIYSitOpOiBkJc1bvCGDKvveZVPNzucQGH3kZVtiOxhpbwrPtiCk892syiP1Q=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.CHAMPION,
     name: "Ada Lovelace",
@@ -3547,8 +3693,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.GENESIS_RARE,
     nano: 1,
-    attack: 2000.0,
-    defense: 8000.0,
+    attack: 2000,
+    defense: 8000,
     direction: {
       north: false,
       northeast: true,
@@ -3562,7 +3708,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-084",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU5gPat4KWUog4iETR-cpWPq3iTnffc6okbuOX7i5m8k501QQrUX25oIeWA8vsHA4d3cX7tDyQ7A6qR2r6tM8yo4k-e8NfzKCXs18zttfJNE4KBAZeebm5WWOGC8o74cEdPnZo98PgMHY5zmmVVRheJhJvIYbZeAVeMXTHJxL3h19OG7pe_Ca2q599XbY9H4UnyVFIIYSitOpOiBkJc1bvCGDKvveZVPNzucQGH3kZVtiOxhpbwrPtiCk892syiP1Q=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.CHAMPION,
     name: "Ada Lovelace",
@@ -3574,8 +3721,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 1,
-    attack: 2000.0,
-    defense: 8000.0,
+    attack: 2000,
+    defense: 8000,
     direction: {
       north: false,
       northeast: true,
@@ -3589,7 +3736,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-085",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWWacYxaVb022rYpcLC9omwOzs67wcVfuGuzs8EOq30dPTkCDm5w8A2HXgIrDACiJVftssmj3XqbvhDVq6CD_jMkYv_pHuU70D8YSyVCl2GYKIXGyI_tGZPBfOaAf3PPcTSdwZKgOO4ZRzmeE8F9KQh2SkxRRuPRGPcC91VT2WvSbmO0_t1XcHbcWhhe2p-80y1lFdrSAI9YW4m7WK0eyhhEnP0rA-uqZrtoaxAwzFtlnmNPRST6kAk6lwOczNpoA=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Babylon Operater",
@@ -3598,8 +3746,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 3,
-    attack: 3000.0,
-    defense: 11000.0,
+    attack: 3000,
+    defense: 11000,
     direction: {
       north: false,
       northeast: true,
@@ -3613,7 +3761,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-086",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVLW9wH7u-UdS5xP4aomuPvyEe2bZH8piCDBAuc0s3_WfKkaHdX43RPKqAxMH2T7bSiLb1RDpZXxWA6HI_CHt3SuJjAKOqFlPkjoVNvIwQj8TAqCa8qF-1y-Ss6kjGQHdoEVUYUnW7YRbhgCadX66fiVb6JeB6lZT1NVfOtvaxIe3q4oAFBhgYk3mOmEun01S4Y0CdhqFoEzIU_fFSAT0mxboLD0727HSFjTY71mIxYziVpUFJEqAzE9RJlD6j6UZI=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Etena",
@@ -3623,8 +3772,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.REGALIA_RARE,
     nano: 3,
-    attack: 4000.0,
-    defense: 12000.0,
+    attack: 4000,
+    defense: 12000,
     direction: {
       north: true,
       northeast: false,
@@ -3638,7 +3787,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-087",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWw13jdyK4NLJiWfMGZIUWDnauz78D_s0tfO8oT3wauUjKaidRwQs9F5WmTeKJ0tRPbpiPaKET-UT6B2K_J1hMM6iw6PlZTR6QEfruO8RZDcY0njmUVKnHTVlK3KY5go3r-W-qBY1aUoNwvD4h20-wak6vuZkBv5gEBaXkH3d4V3dFSCpsxIVIW2EQmJ9SafmPWhweuqPAUlaN9sh8LIWStQrKnvS4NLa139OUoSfYlh6cZM7hI5Lb-TqJNiXlpp_w=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Lord King",
@@ -3648,8 +3798,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.REGALIA_RARE,
     nano: 1,
-    attack: 4000.0,
-    defense: 8000.0,
+    attack: 4000,
+    defense: 8000,
     direction: {
       north: true,
       northeast: false,
@@ -3663,7 +3813,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-088",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWOSkDzAWxeydc-lCaOFeq7_PSK4lLgxZbGx3MRkoMfDsNbBrDJHkUTAKNJqwGiX5zlfGm5brblmyV_eTMNAhEK_DdmGVYep2-zjMCfnTVdUkuBHq_DWHbPqJ9wifVaJZGCsiMkht83Jd8O_LhFe6du81C3ppW7b3XlZvVLEmsrEJVVGMZ8dbaktbIrcQikEC-DU-oKQrmVnnpmVvfFH2wEifGnGaKQh6dJfYzjxB8aDGo38kFe8agTyOc3MvKSN30Z=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Zigma",
@@ -3672,8 +3823,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 7,
-    attack: 7000.0,
-    defense: 14000.0,
+    attack: 7000,
+    defense: 14000,
     direction: {
       north: false,
       northeast: true,
@@ -3687,7 +3838,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-089",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXQQSfOE_U6tOQPVQ0zrxlYrDU4lwCOp_fuQhdvKZnBidmp9I1erO9gUr_-S4aq1ScjzjiNVTewRZnLS021u6UjEWACX-wC49WvzYmuGEDFHKOgDnFmKvk741qSKRwOijAS7Rn-CkE8vDgDH81ZlyOQpE2gzbXbQV0H32v_USk3-CXsR886T_Jc-SQCD7g2OrsEkGO3kxVBpMx6Vz_QQ-hBit3mwhDsdRrhNQ_X0UAy7Vs1yTO--z87JX484mRd65I=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.SENTINEL_TECH,
     name: "Consciousness Aware",
@@ -3712,7 +3864,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-090",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVELrhopeNdVM_Br2BQun8Z6sWrfzhfX4dYdqFe1OTEP66vnkNlfjpF4gG-zhCselupbkKWRlxKulypjbOSEZkkkdJZOuTtmqOFxzRFb70EFayNEIJRJo95y3h4E5l4L-tDaLPnyI75Vbpxon9sy32-VibwK-Nr2c6lvZzTEyDcnbgQFZ_WBvgvvjmoIUnEgzcoPQmuFTNU73GTTWG_Qn_lYb3XTkCp5P0yg4hqLoZdw6kBzZ514gPCqfXtgkk-YA=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.SENTINEL_TECH,
     name: "Cybong Arm",
@@ -3737,7 +3890,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-091",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWp6HH_OOu3xCJYGCEtUFFO5DmfFeeJZeoT08k_iR6Xgi8l99gfzR65DOMiGCeUE7Y6w9rIK9ptsqp0Id3VX4eOPMTVHzQ-ZbUuaLlpDDTsP8mxqwVgrBpwdXXta7CplJhpphpn1gjBz2wHHLMZSwC2osrXvAuCXhS9rb3mLOzfaVJ6eEgOBt9uW2ns8mDCpFNobEIW4Y_H-ISFJx68781x5pbFgkeXYCcfgdejmRDXCAWX5mNFBNtXLfsJe77QCA=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.SENTINEL_TECH,
     name: "Sanitary",
@@ -3761,7 +3915,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-092",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUhXc2mdIsD2pBkNkaLElPhvYDxrqqJzqt-Dtnlsrgt2IFkHQRq4lgP0BJaukkYsBWt1jOHyg5XkxC0OT87DpkRZCSdjmkGsrNsP_EHNRsh4uB_To5FBGDslaTkCmmGuL3qkifxN3FkOEiQKNKKNg0w57f0SThjIqhu6lb9vdOkMOOpg_ZxvtShWUKx-AbbgEvLQKzl57NeYAzcv-bx92n8-PjOYnhdD2J-vo86BJhXnuZzOzuNx_NZefK4jbHiVMA=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.SENTINEL_TECH,
     name: "The Exilement of The Fate",
@@ -3785,7 +3940,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-093",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWLJEX_SqD8AmQAY9C6hEWTQg7vD2qdFwXkc4osHYpgjPSAfgozwQj2X2sDNzynpCfDmEVu1XKL_XaiTagTfVTZW9K0FvyFciWR943a82B2hoB9HNd6zX3qjixWqC_Ztfvh2xJyNqXBEaxO24Bjic0gstTbun1RgYIUJ1vy4qM0KqcX3iJRnH_-aFtnFTrAh33R-BxDY2jmqorpa58LzEM9TkTwnOo52e3lvEOf1U13pOOn_8UwXihx8uwnnIezXQ=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.FOLLOWER,
     name: "Battleroid Ambusher",
@@ -3794,8 +3950,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: true,
       northeast: false,
@@ -3809,7 +3965,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-094",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUghj7mXl0aCpXuC4EG2L_7fMv2YvW325w9OiDZXlimT60RI8sNAFLVvrdLfyQUPKhrFBf4CxsjbfucCTxkYmkbS12xvAAT_Oj3BN1FdBSfO_ADyHPPLCV4OmeneNsKt-4G8_1FOH_nwJOOOFbLZ_i6cHQ09gd4f4u01iKQ3yIFAPvjafQForRAmmsd91SjMnzEExjvM0mQc3q2r4fL1nWo_Ay5xwS2l1Bs5aHCr1q2YIR3TeU6aCA4w3ZnhnSW=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.FOLLOWER,
     name: "Battleroid Infantry",
@@ -3818,8 +3975,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 4000.0,
-    defense: 8000.0,
+    attack: 4000,
+    defense: 8000,
     direction: {
       north: true,
       northeast: false,
@@ -3833,7 +3990,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-095",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUck6qi5FDy3KTYzdpbb22xfUtL0kdyX9Vfwni9gkZghPf4Ch6JkvlVrTDdk0PLoN3b54GF4u25NdxL7kM26sWUorcUf0oM29_LpZZ4tIMYTU4ZKAIhuAJp92iow6fOiHcPioAuqfDUn9ssYs4WUvqJRgEXeiZcz1gdFXcj9f2-MM5Xx_mVFPjxzfvqCiBgBU4SbLylHhlFXu-w-htvnSrJLXrzYk8tF1nIFYDnI3k-ddk3HQZ_SayxFMIW4488EQ=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.FOLLOWER,
     name: "Battleroid Sharp Claw",
@@ -3842,8 +4000,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: true,
       northeast: true,
@@ -3857,7 +4015,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-096",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUjqqUj13N9tblN-HCh6fYxfHM5UY0sgBK9SlJm_NDZk6hxdVGajm7nA72col-igPTnk1aXl5VjXUa33o9O3WtcK0pO4jsO7Q6GMzNCYI2FURteYZHMIkH8s-WLPMnfs8EeUUYwheMxA68ofmFNjKSJn7r57DsnEtpbZGNo4pUDInJEnsL3tzv5WNteexWhr-72Hx6lTRwq2v94rPFI3YD4EWYLRyf1Cu22fOpW7HSV3sEveArJBYcKxg=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.FOLLOWER,
     name: "Battleroid Warden",
@@ -3866,8 +4025,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 1,
-    attack: 2000.0,
-    defense: 7000.0,
+    attack: 2000,
+    defense: 7000,
     direction: {
       north: true,
       northeast: false,
@@ -3881,7 +4040,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-097",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xX33ZXuHNjWS_1LPiKzXibgl8F7gQNhbIRSxMOu9OCluCp0GNMCxaWdTHWMJRLctw-OKGLmi7CLvK1ND6wqc_o_W53op4KhXTXekMcitrYp2EvT1-lTPa3DERu2PiBcXZgHec57aghkvU-nsRyHwp9IVDAIIu04GrYfNYoA2sI0R0R8Bbc9-luyd5KcUZP2fDnfRQ_Q2yS9OMQVlM_QefmBXc8SdvwDPW_nwEgZ4z1qPthHRRyygfbBwhTW74PIkw=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.FOLLOWER,
     name: "Bob, The Sound of Beep",
@@ -3890,8 +4050,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.MAJESTIC,
     nano: 0,
-    attack: 1000.0,
-    defense: 4000.0,
+    attack: 1000,
+    defense: 4000,
     direction: {
       north: false,
       northeast: false,
@@ -3905,7 +4065,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-098",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVwxlEyx0p_ex78ZG8Oe5SvYeL5mPIImtKQUcPs_vpw2axnIxObPbfHftj0kQPMtoqEwA30rCm0QIjaaeNWT015QXeFZZhvOEjWXjSRUQfenSXUEN7wWntHNAOXSdQLCCPF0o3T_6qQAtRJG5rn4C55fnL050CnnWQ2P2mFi6KujrTUiUUuX7TCPiZxa_tWomgs3rBXKL6XY4PJb66VFFDEp9mwtqsxcq0bgkakp_bovSgoDWs7gJfHOj0jgZDlbQ=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.FOLLOWER,
     name: "Cooking Bot",
@@ -3914,8 +4075,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 2000.0,
-    defense: 7000.0,
+    attack: 2000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: false,
@@ -3929,7 +4090,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-099",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xW2ZBz3AASDuR9B4FRRdznqfFJ9FN8J7x2IeklswzxTAU0NU03DmCHFyN6xmv1Xet_FUMNv_JHdBhj0Cm77_MrPDw6mNmERWcDfkoGaz5dVn40VN90K0pp9QpN97uoUqhmqrTiVrTwM8RdEw3P2zcSLML5gDIxzW-PXbzsqUYk9a8O4_7V8_bgTZSKlmSAdmyl5JppdmJX7KfFZle-se4Y9NbyRwgE4MiRjSj9_mtM-j7KFvXIusn9W7UHOn3TLnw=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.FOLLOWER,
     name: "Courier Bot",
@@ -3938,8 +4100,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.MAJESTIC,
     nano: 1,
-    attack: 2000.0,
-    defense: 7000.0,
+    attack: 2000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: true,
@@ -3953,7 +4115,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-100",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVUZWD_gx6kcVZQL_rYvy_-Kzkgx0iZDQk2E6rXk1sN0YOkszB36bGe7LHrdXicRLjm9O5eujyIgGUJF8yYmfscEwLTBb-T9Pu4tF4z6U6GvK5ijs93IPzUCavH45GzO5znN_Sdh_X7hzbzNoU9OhZhL42zEGAmvPJUn7POmdJhCxH0jb5D__jpja7XYqvOyOSepq1n9PdEkqHMMzWaS1romZFnJDVgaUcYh5QyvvwGOjCeUX9nvNvQSehgc4nW=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.FOLLOWER,
     name: "Curing Bot",
@@ -3962,8 +4125,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 2000.0,
-    defense: 7000.0,
+    attack: 2000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: false,
@@ -3977,7 +4140,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-101",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUVf6w-H2waGnxL9ewE7HKb6AjN6qGNfRKX0aMW2UllaQ5wcr3YCeNxVuuTvD2IL0WQ4bz8zYy-ssFrACjoDaqBJ25ZQi7cHuCj_CnFepgLht1GxyxXGh9FHeSe1lf1r3oB9HckJWZukmva0Tlx4tuzAG1_XJXSD81mjiAhs86kCVEN_Hnw48bKEO5RiWMHlMVYjY0HOfP_Hb2Et39ZUpQMum_MaaJGOtRs-TV0-Xglr-GHkE1T0AjWrBlzFwibAA=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.TECH,
     name: "Electric Spark",
@@ -4001,7 +4165,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-102",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUvmAJI3TGLTQKjJJE320uRxdYuIgkkZ_-31_KxhXPToiaErO6nZSeT6DNl2LUBQ5q8c3fCe8SLEFGFde2kId34zJk0Tynx_QoT_DiZQXilPfr3_-rj93XuwqByMYlDw1yfw0mFo4FwGprKx-NGfeZmclvIEl9JPruZvh-iwJgd--1TD9Br_hw0eZ_mppiJquc1l3MqvkHs0q-8--jho3qL91LhJ9UXs4mdSUGBgyiRaCZoaWxQrOy_Va1WpJeQTw=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.TECH,
     name: "Energy Burst",
@@ -4025,7 +4190,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-103",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWmFBvO2R0tJlfh0LZA4F2jRA75_xvplg5uaGll8KKq0qKTC5SaSfb_-PEjNol8Fp-_UYNmXXQkO2SyBvGg1aF8bHnNTerU2o7OTzMkIj5jFYoCFE2o8MoV0xVzJWwNMDtCKcoeqmHJs23JjgPqxhakpDQsFSYbJNoesySXdwNgf-L21f8LAFPuHxEEGfrYIQJYTnOwF_DK8sfkyKFiGNq1uFTTq3kxeYFn56TU97_HuH9AIjOgOc1LaAFncroAhQ=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.TECH,
     name: "Identity Bracelet",
@@ -4049,7 +4215,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-104",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xW48kdxKBx9W2B471DhhCGh2Po9fY5-9JbsXjvrPgBWuW7f5Shn3fozL29r8oAPVqcDjhPiCQkCTnweSitn4elPrR0iG9oteNv4wuSBpQ7ZQmjF-GLoGPq5ZP0hHScStLTHQAdgevfg8mEx5kSIKIoLjnmVa5bA46FNKXJ6aSKA9LxDIGbQMoftFHYZ1gnaxkRa2K2bB0VbvXhIQF0W1Ttnv_hOKQ2E8_rxrRMEsubxeDM6vh3OQOQwRsyhaQOScg=s175-w110-h175",
     faction: Faction.XUMERIAN,
     type: CardType.TECH,
     name: "Photon Shield",
@@ -4073,7 +4240,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-105",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWQoofVxN7UC9bcnlm_05jTyxTuyAplmp_Q2PHQos_0r6U9kBG7dMntl7nz5g1VzAGr0Hvvp-RsIh_LBR0mp2PW0u87pzxPWJR3GtJ8eFD-VWEntoVF0vXRX2iFbkJvv_9KtKGa62bWKOwwh2Ltt2GFd55sIiYnODZo6BAwzLY1K0-IQ38ydvGFm8IFvYfW1IBmCqxcxhlBWddoPl6lPWNutOIwuXUlWTJQRED6bdVw2O4KnLzHONuEORL84sBgTwg=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.CHAMPION,
     name: "Sarena",
@@ -4085,8 +4253,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.GENESIS_RARE,
     nano: 4,
-    attack: 4000.0,
-    defense: 14000.0,
+    attack: 4000,
+    defense: 14000,
     direction: {
       north: false,
       northeast: true,
@@ -4100,7 +4268,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-105",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWQoofVxN7UC9bcnlm_05jTyxTuyAplmp_Q2PHQos_0r6U9kBG7dMntl7nz5g1VzAGr0Hvvp-RsIh_LBR0mp2PW0u87pzxPWJR3GtJ8eFD-VWEntoVF0vXRX2iFbkJvv_9KtKGa62bWKOwwh2Ltt2GFd55sIiYnODZo6BAwzLY1K0-IQ38ydvGFm8IFvYfW1IBmCqxcxhlBWddoPl6lPWNutOIwuXUlWTJQRED6bdVw2O4KnLzHONuEORL84sBgTwg=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.CHAMPION,
     name: "Sarena",
@@ -4112,8 +4281,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 4,
-    attack: 4000.0,
-    defense: 14000.0,
+    attack: 4000,
+    defense: 14000,
     direction: {
       north: false,
       northeast: true,
@@ -4127,7 +4296,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-106",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUq4aO83FfqBMJ73Y8O_VjDuP_uyvH0fTWRVjV8rP1axkBkSKPUJAirVkywQydOVNch7ldPMCn2JY8XotTk8-eCAsun1H_yJfo38KXCCEvnBeB1Ew7jiJk4G3B2keuldD35uabbsTM8g2nMGv8UjHwMlsBswnE8afp4Tkd1RTpy05IjHKiUCIMLMqz7TdqBGgBcg7dmS-gJfBK4zQOwGlZcBQYL5GlIiXV60b_GquYijVocUkvVtlpNAym6RTU1fA=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Augsburg",
@@ -4137,8 +4307,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.REGALIA_RARE,
     nano: 3,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: true,
@@ -4152,7 +4322,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-107",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVL4x_ZHFme4hUmZoo2zt49vjQ-XeN3_al5oGSsSTJGIzdex32QHdGssqNLCJtmG8Aajas6AhVF3Z8K0awu_LMh6HE_ci3UPobNoPM06_2xEuHTar720fcfg82OF1TSUUhrmyIjCgyOkX5UHxS3Tt5UVCJEjEjyLIPjt0ei_80ag-p8svh0VWDOVriC5w3r4JdK3tMIsWLsOFEIo-n5OVepibDes2Uii840Mu8yeSR59Zady9pA0SksOKOKHnhfOkc=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Cecaelia",
@@ -4161,8 +4332,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.REGALIA_RARE,
     nano: 4,
-    attack: 4000.0,
-    defense: 10000.0,
+    attack: 4000,
+    defense: 10000,
     direction: {
       north: true,
       northeast: false,
@@ -4176,7 +4347,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-108",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVUXTcYKS8cTPbI5ygjU1HQu4gFncHFMHyH3RBm56cZ96w9htVz0DqPWC2eD5tjebHxbJEl5Oylzo0NKvm34z0U4bDIklYBIQWFSO8DytpL11xmlon8YsHbpNv3Uin4_RwACCbGgqw1MKm003mxK6bklD-u6Tuc-5ehHoMvaFGYgdb4Gj02rbLDSTA8W59U53N8zXiM81FFxnxq3NwF0qguyTsQ7xAnZNPe8rBmAPqSXzlXQTsuwPbNgWi_3IrhkzQ=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Ivar Ragnarsson",
@@ -4186,8 +4358,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.REGALIA_RARE,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: true,
@@ -4201,7 +4373,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-109",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xV18v3wBLcEjlwAeK8ZQiDiHjIFfLYH8Qdcl28bXdTxGUdIxpiLgj0YK60bWcP6UlfbsplmVgN8DfDLgw_QFZpinrMBbNPnW1AJil_WNYZvsxWxvQ1rFFOfzqnguc8ZoXfoi-ydlozxQXCK1AtfIWBXOBM5z3WfTiGwOEDlZ9o5_ZMUck-YpV0bISkgTL2sNQzDx8mpVX0YQjvxIMi3nXF18o6pkIfBflJjxD5h1PIOWqzpipLz8V1ZGh-OIBTatQ=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Lilly Sommer",
@@ -4211,8 +4384,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 1,
-    attack: 4000.0,
-    defense: 7000.0,
+    attack: 4000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: false,
@@ -4226,7 +4399,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-110",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWEBRZrVIBp0Ba-Bki3PZr5XZ4Zv4uCHSGuPsxu9QQhOKX_Qw8yCS62YwAjx1ZabhRMdjvJ95AP_a8P_6v7uYgZeSsIka_ia1THUPtIlU6yEcxkxIh-wioodXgVt71N8nYCx-4y338-d6-RmXpEKiD5YYydhH46nLc0BRs0mf1jFurGQa4hwj_6cIoYBbs4cZK4WNSbT8GEyT9It1MyOzfeiu2GDKW3fJInkLfgvMBvRcSf2E6UF5O2EclGz3bGPgY=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.SENTINEL_TECH,
     name: "Queen's Bath",
@@ -4251,7 +4425,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-111",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xX1HYaAZ9eYitKWXKnRN_IH5I-cVdLmIkZY2gm9UKDWQGsSX6hPtq1rMfxXfgJc8_fuj0K3HoSKzOu_YVfVV9eioHzmewHJlhFJvaiBBkEcQeDLSHv68m6hp_M4_YvfZ-n4csp0iORWzmpfkAngqnIhHBny_C2Ilt04dc7p2yyWe3YPl4Qne7wDqvcaHdg1K5b9bf8dO9khJHFzbtwGji7qGmD9wx1huDHSUWagr1-aJo5Qi2li6U0Sk96JF0gL=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.SENTINEL_TECH,
     name: "Underground Laboratory",
@@ -4276,7 +4451,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-112",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVmDZrIkccAEbK1xO_kQ2ebuNs1jgyyqJNH0UDefOget28i4qFfE6SfvMFSCKsINNkoIjXr60LKw_lGGrDDtFgP-ELCDt1u2saPxorDonXPryWvnJpdf0ECJb5NVuMBYemTZ7FFORRfl-UREggC8nylAiDsMpSkuBqgAEF-JTeupyKpJukCgFeKhmVzxZWuQzjNItaS3T6ymsED2MXprUk_WU0A3OXsY9xo4H3Jhe5_8n1zv2cAyU_Rng2jBuW1EA=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.SENTINEL_TECH,
     name: "Wicked Scientist",
@@ -4301,7 +4477,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-113",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU--kunOJSjFnfaQBFhloZSA_b30d-H6TWl4uszJWawU36KGD6KK_QmDdTSsRSQ80IySqHT_baw4maWcRj19a0tmA-Snntr4VIghxq9mmBllvds0bx-LxQc-222jceoMdkN02uyU6gsCBbuEY1WRgcx4Mnib2PoP16i8XZBRo6aB63aNU6m2b4OihOS3V0CgrDWzWnRrmz_uktDCw8pGXNW4BRu1RGeJMZ3UHBEpAdlU_dL9f3Ul-HM_yfZleEQTA=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.SENTINEL_TECH,
     name: "Wicked Surgery",
@@ -4325,7 +4502,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-114",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUUd1QfbYIiwtEowN5w7Cf9UY9C-_mX0IvQ2u97TghdytDW4EmV33u3zYn2QoEp1i5Y9iyH-zuMIDfJ67Lm4N0Ev7NdZAs_pr_-sYE70yPEb8JFgXLFQPsz9RdxeZVGoR5k2Co5E-lpbBGP4BkMnr61kHhyE8OVPkraI-A3ZA-DayzjWSgqNkrnTsYrGwjNyU3Ud6pUJtcevjwGsdKVr19edomQvxoG16vAVcXb7yrXD8lZqk9pZWUg513o1PeplA=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.FOLLOWER,
     name: "Bio Alchemist",
@@ -4334,8 +4512,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.MAJESTIC,
     nano: 3,
-    attack: 3000.0,
-    defense: 11000.0,
+    attack: 3000,
+    defense: 11000,
     direction: {
       north: false,
       northeast: false,
@@ -4349,7 +4527,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-115",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXqkKGfhUEWHr3qb6lqsZQC5PI02jLahCBzptpt5PHMaFluc8n_tJo2sjLyLpgCTCwFW9xVVtxq26OBdKRGR-7PpegeMELQJGWmbIKq2R6sViCgJ0bcMbqAopk-c456iG_iyd_pGV75X63KZb--f5G8qShFiUaqKGsdAsrD_39EBi_oD1WeO4LmAA_G4QgzPHy7OfX07vAxKDWlsYBFSAaYocgBx3GEMtLbIR6hgfFuuwK2pYEkdOfBAiJUo8-RQA=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.FOLLOWER,
     name: "Cerberus",
@@ -4358,8 +4537,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.RARE,
     nano: 3,
-    attack: 6000.0,
-    defense: 12000.0,
+    attack: 6000,
+    defense: 12000,
     direction: {
       north: true,
       northeast: false,
@@ -4373,7 +4552,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-116",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU8DUVwqmGvzO53H5EH631g30qrEdejRD4db_rVqfbangUlPNJrhFThqks8BT5xd2B-hcij134J45bapdThhr6Hl_OgvKSsoGjO2VyrIvPPg9Tjw_Q-qR_EilGpSZhKKD7qp2U7Z5FaE7ACxd5ItOy56zgk1nk1U4tH01rbiNlC5aY9j6hxyOLRlDrr8LgDFi7ATi0VYcz6_8SndKpypp9aH00Jpkf1MbUNgXFVFEx--4i24mxgVG1bM2e8mmSHOA=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.FOLLOWER,
     name: "Experiment R-003",
@@ -4382,8 +4562,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: false,
@@ -4397,7 +4577,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-117",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUIUi3yhMyBmlayLLubAhK36cXNrC-pWVyF16tDKBQecDaNyhE2yxF6MQWEN7NLFbcqRrA3jdiP8TUaExcvdHsqzsI9sz5H90lFA0crpxClOoT8LqcrUrhkyxVtOQ31vpQ-KR5T3cPd-IdjyLcCkZ5eONClmo5BwRyItNjDcwjMYsore7Zi6k1_sLQYQ1XFiinEYL5ZX4ngwSeXoc6JGDpvtfzsbddofOPHnZOTrSbGwb-e8g9WNegYWjzupTma=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.FOLLOWER,
     name: "Mad Scientist",
@@ -4407,8 +4588,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 2000.0,
-    defense: 8000.0,
+    attack: 2000,
+    defense: 8000,
     direction: {
       north: false,
       northeast: false,
@@ -4422,7 +4603,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-118",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXSUKqtitOI40VAvJaW-seYPRrN7o2Sl1dDrFMU9g-mV5Fqpb7JeNNnZ95mVNQGchrq9pP-0U5T0m0h-IuBjAp4--6ap3xEsUcRYanUvI51FocrNWsvllEHUW7hxEHC9piwomL0d-YXmPevoGi4uiSaTr-X9J_QT5gQnF8YbeHoXjNYEuWjh1s_Oy48aTxywvc3tYnX85DY4nH9fj5do752N_xUEleZaDU4Kb6ngFcbS0ZHDM3R1psU71t7mxTStA=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.FOLLOWER,
     name: "Ornith, The Sound of Horror",
@@ -4431,8 +4613,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.MAJESTIC,
     nano: 0,
-    attack: 2000.0,
-    defense: 5000.0,
+    attack: 2000,
+    defense: 5000,
     direction: {
       north: false,
       northeast: false,
@@ -4446,7 +4628,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-119",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xW7reBPJGS-iMBJkkvhh513_8khZe7qMhmlDntPsi5cer6MsPxxYAZwNtjDKmxaHuoggERFtaEhzZ1ZCGwWvad8O1YKxeIfK8Y3wRwRi_nQwoORmROBD5j0PY_Izg_All816KI8TCKCbW3Gi_YD_n2O0l6WmKaA97gaqzqd_EueA-BbsImRaBAXnw1BoskDlatK_zA0qiRMkDLx_xukiOGQ80mSBhBtKVLwWpGXnjVQq35Hi8jgAkgReFhM9I-b=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.FOLLOWER,
     name: "Sadistic Surgeon",
@@ -4456,8 +4639,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: false,
       northeast: false,
@@ -4471,7 +4654,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-120",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUuq8ZQenPS8Zkl_jzrm7iNZon4xKB23x6TEpF7FNzfqjqpSgBg-la1LRF9d_R4hlpD4TEf2KhvxBMtNFC3sJQV3ZdTME_xmHEUCVWJCKkYhULwTbIN2mnhHuD9E8U8-ifjGqc8PMPqoP4EccC_tpiVESKbuyek9FaO8r9NnHGg9X9maWhN775Puv93cNDkp19K6R5lzDV1iznOH6zgo6gGIIaXnBsgohiSZ4Dr9Y4db3vOXqnaI6Qqzf9e7Xa5IA=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.FOLLOWER,
     name: "Zombie Bride",
@@ -4481,8 +4665,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 2000.0,
-    defense: 7000.0,
+    attack: 2000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: false,
@@ -4496,7 +4680,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-121",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xV-ZsVaOsyUYheACdOGhaT87cf2augolrmjIFKmRuV66UCDtuaFPWHSnqgQ5xtzXhVC-72_120J4uG4OHT7oP9-rFrNGyBSrnNhNPgq51CD_nyyzcE0mrCk9Kgs1eJYmmb10sve4KNA7EcbZnctBo4Xz49CWvJLuwbPpEXzTnato7BtMID0XDLdyOxdY8u_6pP4g9oMUUd2muu3pU3N3vwYDRVAor4SP1fbKNrd1lVGuwvnByqC17X2nZdV-S7P=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.FOLLOWER,
     name: "Zombie Groom",
@@ -4506,8 +4691,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: false,
       northeast: false,
@@ -4521,7 +4706,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-122",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWeo2Z8-oUtnlvFcoRh11HXS_XrdabD7WlHjDc3wq2m2naY9SzC8r-DA5Z1le9uosLQMu5fr7hX146l354NO7hNc3Vt3Hc7UlehyVsExlUOptcyc9d--oUhBpCvX4DDHutvj6CtXqwx3tTZ_kuQX9sXT5Ek2lNlwGnjeYdZpFkLtL-XdGuMDxy5DAAxsif11OBntUm6qOxw6fLShQnEEavtkCAyZe6YxAbdWQFqTiTApyBqrLOpXdwlNcDqql6lzg=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.FOLLOWER,
     name: "Zombie Violinist",
@@ -4531,8 +4717,8 @@ export const cards: Card[] = [
     product: Product.BT01,
     rarity: Rarity.MAJESTIC,
     nano: 2,
-    attack: 3000.0,
-    defense: 8000.0,
+    attack: 3000,
+    defense: 8000,
     direction: {
       north: false,
       northeast: true,
@@ -4546,7 +4732,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-123",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUzeCF0-xln7l_z9aVcarpCucQWU241zqm-BSJyAR4dOIaVETLg4AxuYQj0zCBZsArSMXuhT6e18Ryq732YFjTZZ4ivAfd2CHUjMAP_ZcDArA3oqd-e4Ueea17ElWonwA0ssZyw5JPKQv2oaYG1sKATWA2KK70kIWFLOHrPrZNr_j9_C5NXiYglNd2kbu5YxmOVtNR24mvX_EdH5FS_0HAW8dN0-j0EAIeE8xvf7NCVTHw830z3F-sGy01Bp4_ilw=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.TECH,
     name: "Death Rush",
@@ -4571,7 +4758,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-124",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWL-1YaNKZG7SlpTH-Mxj1XCRxHNBZNpfW9_nbrVTCiY3jZHnuD4rcXdlpRThLpjkitJmDyN442MPZhDKi_CCiCRWCZUZEC3ayvYmM7jvdknMaTlOryJeLg3dlSNACT6XQwrl7LZ3kC_q5T1uBHr-8KqG1CMSCRv5x2LlcZ2ukoC6a0iHBB7J9wblgZjX-8c8D4Jn_r3jdWMo6_UC1gzKqJsNhRtDcnGDTof0xM-ZoZxmJi7i-o6UiFd9g1Yjimyg=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.TECH,
     name: "Unleash The Chimera",
@@ -4595,7 +4783,8 @@ export const cards: Card[] = [
   },
   {
     id: "BT01-125",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xULEAqITTTLnWz8NJNNF6jlYsqOY5S3L3apzbnMWPhRHun8Jka9lKKZyOJicPKBdCJpsVr-ZLHXMi76znmzcmbGperzunt4eZxSfTYSXwBQcGa_ieMLr9gPHmy6WEko4CJfNeGIr2H5SVuX1fjw6WH8oQ5tFPmF0AaTGRmYrFTXlPxn70njsQhsy1wLLvsR-M8XfJArpVvbOqXUyzvjGXhwWbd-JcrLn0OUMROKob8Ey4IQgDAun3GhyHBVPiq5xQ=s175-w110-h175",
     faction: Faction.ZERZURA,
     type: CardType.TECH,
     name: "Unleash The Ogre",
@@ -4619,7 +4808,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-001",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUVBEX-fySAfn9YH61dY1JX_u_oSHVXwIYpIf-7xkFgsKx7pBqXQpuVl3pf2oiRoF3rMrbgDXCWPMNz_B8Bzo4bUDFCUuVy1UaP5M0MO-bSTAbHYpsVjbPNLPOwJJiF_JWRN7GqOxPJUbp4TZmmH08uNsdfqWgo5sKZWTafTPeNSaLYaIaxrxgtExI-PMxBvzuL74RjQgCatvzOJtruFrxDn0YikdsHdbRZXQjx_Wo4pSjlf-aoQe4QEnt0Vin2S6Gb1g=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.CHAMPION,
     name: "Anne Bonny & Mary Read",
@@ -4631,8 +4821,8 @@ export const cards: Card[] = [
     product: Product.ST04,
     rarity: Rarity.RARE,
     nano: 3,
-    attack: 3000.0,
-    defense: 12000.0,
+    attack: 3000,
+    defense: 12000,
     direction: {
       north: false,
       northeast: true,
@@ -4646,7 +4836,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-002",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVVF9QZfCFSjRie8rPyacZaMZFlaS9cGTLxXijd7AjAo42hwA3uj5saxaGFws1Tv2Rg0e-lBsR6TnbyW4Y6o7Sw6A-4VMU82zp4sgto3MVYBcNH_aKIgQCqsJJQVK7cfz5DrFndwPcDwXRLC8E7jQ8Tewd3gsBX4dvdUO7cY6p3umfr5gXaAILT2g8_F6iQzu-PuOlJJeNKjuOE7hVH_0BBBsEDEM_9vUi_fFOFJbnvhROOGvMEg2Q6AYnjkwqEHHDdyA=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Anne Bonny",
@@ -4656,8 +4847,8 @@ export const cards: Card[] = [
     product: Product.ST04,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 4000.0,
-    defense: 9000.0,
+    attack: 4000,
+    defense: 9000,
     direction: {
       north: true,
       northeast: false,
@@ -4671,7 +4862,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-003",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWj9xHZpdeI2H3huHOvV16aqdp732mpR8G-JPLTk8oKroPjInnzJmT3M7DTMY4HOFOoU_a5D19s6vsNjHK2ZUvb5Xgjo8AXTnteoUZCYgVlyi-AiZfbwTnsy1f4QW05FBlwi-zo1AaNW5GQSG1gdp90x3KN6Ert7yNsOcYj5LM98tbw1JM_mNxFB0DD-SG3HjMJjvqywTm2gaUqRuqA9M79J9_ZdxmvCgzGgBbTSPTBJ_4lGUxpufqDaOsNECGUDmjbQQ=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.SENTINEL_FOLLOWER,
     name: "Mary Read",
@@ -4680,8 +4872,8 @@ export const cards: Card[] = [
     product: Product.ST04,
     rarity: Rarity.COMMON,
     nano: 3,
-    attack: 4000.0,
-    defense: 12000.0,
+    attack: 4000,
+    defense: 12000,
     direction: {
       north: true,
       northeast: false,
@@ -4695,7 +4887,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-004",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVF9SbZyA6oxICu0lDY5e0F90fY_kczFE_YcFfjqo6HVsLihTgbUFfEnxSAwIif44tDlPs1r15fdMwt7KG_i7VVZ9kX6thHaHeHxLSqZqcPiL6kemyltiimJUsJowWBcQg131pzlyNVm7eoaalrddz1BhDEMj68F-pZUaYxH4AZ3z25XV8JW0cgijAKBv0WrTBAVQ-N1uKAZN8bpjl2O_nssEAI1Kyr9wgI44ip87m0hHNI_78qQCtqjc9Uk_TCyZPM7Q=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.SENTINEL_TECH,
     name: "Anne Bonny's Soul Sister",
@@ -4720,7 +4913,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-005",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUbOe--kH0Fg5VwB4hscTpBbsJhUfEG1P71QcK4pIvwNRTO9Kaf2Px8VychMYIh2OdQk7aQ3ZMYdv-6H9aXUPI3oD0lwodzyvXayOpqHYmAuTq_gWPfumXEAdGAygdNPu1CS3vXszZgV1DVU51NV11gXezdayWQtCu0TO-mhUcCATERIx_8bMDiq3TNTNdzfosO6cPDH14ssPMczfcUqbQZt4mxe6PCYt77bcNpzuxoMAJxC0WcG2o5snBgRwomhjor=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.SENTINEL_TECH,
     name: "Mary Read's Soul Sister",
@@ -4745,7 +4939,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-006",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xV0asgwcqDqz7I0GpwunonrSFZhDdT1_90XsKZIhGSmSP8ioVoGw0motjztDnDDG0_v6kuQ1yl0iBfWZ6DJmvxFCUfAJ5UrdSPWuA1dDBZ8YcGljv3MokTfbMMZA5-Vutt4Z2KFLREKoaZruk7ziso-8uLAAwNS39FEoDTGwubGmmYJtZMrk7rckSdDC9t9JDcgtCNcfkyUO9dbE_zCitJ1mezcD3mon6tqvaW8UNk-_4Rg_eFY2XNNg5w1VNL1H-iRMA=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "Modorian, The Crime Consaultant",
@@ -4754,8 +4949,8 @@ export const cards: Card[] = [
     product: Product.ST04,
     rarity: Rarity.MAJESTIC,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: true,
       northeast: false,
@@ -4769,7 +4964,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-007",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUe6iSaMvpxr0jBvBPvJLJ7D-dcWOfI4l4xx0fNSUyJKu2PE9JmsGRjJ0OveNevBxglOKsOmGUtVhRgPMvHAKa6dL0qFoOptGVgENGmT7ubZ-8myqYN1P9XosremPHoMPGPf8sXi_CFY-dd1AEmdsoLLK2dYNGknTf2bn0eKdVT0Z53ETIimtMEIDGG9uDJMXi8MOqnlHKwWoTvAfvFux2GU3jsQaYg4_KZOnIKJRIFu9xC23zLcwpmN3J77TiXnDu43Q=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "The Duchess",
@@ -4778,8 +4974,8 @@ export const cards: Card[] = [
     product: Product.ST04,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: false,
       northeast: false,
@@ -4793,7 +4989,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-008",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUlBLp2bcd_XoOblkZkOhH2va3_BehQ6iV7wqBa4efRxQgU1UWmNfr1g3zPKIlK59LW1iWUo10QuSYzMMh33PvvFYFoQqgFdgwFTaqS8D1Zu-7qO6OZB8PcoVwaUTHmit0NVdwY--MBH2G-wd8_ZwoBMsHXVjCBMj2eVAUhCRhfkZHMWV5N6AgbatSHDSzW8vpHEoD17Bicm8HJZqthjV0EWM37k6zOt_FEuDFzZ3dg5XOC-XkHtWzvA3oywPWTBz4Ayg=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.FOLLOWER,
     name: "The Machioness From Afar",
@@ -4802,8 +4999,8 @@ export const cards: Card[] = [
     product: Product.ST04,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 2000.0,
-    defense: 8000.0,
+    attack: 2000,
+    defense: 8000,
     direction: {
       north: false,
       northeast: true,
@@ -4817,7 +5014,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-009",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXmyrnKUSHCeV5vCmbmTpFvSwkyXAofyVckVNN5HcPX_zeiZVYOnZ0KR4x5VhDTLowpRWJlJ2HoJoZSB4MV2rOoH1hwbMR_ovxJeDHrzPy8sIVE2ZxkizSz4jHyEk1_mmddlJU14oOVs23Q9s4wj4KxF9ZADmWlQa1bK6je-_5yUKkTyrEm-AmBpQogC9zRRMo8qopjER8uFDYkN3RdUeiuMlY_GvY2SgoWJImmd0VjR8CWyuMFNirb0v_p-MY2maSuOA=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Alluring Beast Queen",
@@ -4826,8 +5024,8 @@ export const cards: Card[] = [
     product: Product.ST04,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: true,
       northeast: false,
@@ -4841,7 +5039,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-010",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUSebIkPZoJLtsO7-u73EhLGU22UJLFm48HF47Q_eNIEI6hrNkg552TSUfXipN59EeyXCosm-lua_5ohF-E4x3xPaYJbhE_rElEcoRWK-MUfyvRpmXEo3tcUgdmDaHG5FUaNGKi7gk1dQZcX_8FPt8WEEZO2IPcSGAt94mFkTLIveQw0_z1C0vA7NlJf3hqj9E3jfX18lU_R8dbkp6IOWR-VFHOrUFzY-siT4QSos5wSrNendenf1rojN-bzBvYksBOMg=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Baleine Du Ciel",
@@ -4851,8 +5050,8 @@ export const cards: Card[] = [
     product: Product.ST04,
     rarity: Rarity.COMMON,
     nano: 3,
-    attack: 3000.0,
-    defense: 11000.0,
+    attack: 3000,
+    defense: 11000,
     direction: {
       north: false,
       northeast: true,
@@ -4866,7 +5065,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-011",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVRX4d_RoZR6ToalETGYyNtH8S6sXlXNoVZ5o3cJv5Fe4_imC6iXEoFLF7619wt0-SioElqwWSMLqeXGUuzNL9WlqBG6LqP--WAczyFIEv8I3gfOQasP6fGiVp7ReQ8mzvONMXkIrvD70qCLmfr8ol4-RH18VQN283L0LP1f0_BeoYBsfuG0GCtstfLKPZRP0RGL1AO3sN11FNbQitUvLl5nx_U3xuYtEKtbrCS4EFNazkhW5Wy7XthBJQb7EBd-Xgx6g=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Calico Jack Rackham",
@@ -4875,8 +5075,8 @@ export const cards: Card[] = [
     product: Product.ST04,
     rarity: Rarity.MAJESTIC,
     nano: 3,
-    attack: 3000.0,
-    defense: 11000.0,
+    attack: 3000,
+    defense: 11000,
     direction: {
       north: false,
       northeast: true,
@@ -4890,7 +5090,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-012",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXCRT0AzQVGPlpM48-j8WEwr0M6cfKPZwn1lWsX5GsM7FbxbIW2p0B7vBN_vxCDY5Z7e6f37RfHN9zdBEyzcXijdo_bsjuI7HBcaEYwpH8yojVZ_VQqEJgTlnY7-kYYHaQFR5wlBEXOUVQz9vzE7-KQJRq5_XXz3Wu9QcV5cgLqNu7b0BGNRllj5L-AcVHvC4ENzBxobFEb0N3LsquhLkqAtIjXTQ6RCuSeT0_wm3e-VtKINP2241lYW1NdVMNoATtj=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Frochia, The Aerial Hoop Girl",
@@ -4899,8 +5100,8 @@ export const cards: Card[] = [
     product: Product.ST04,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: false,
@@ -4914,7 +5115,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-013",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXqiTn8jRkd1umVxXbuiILvUDKWm3YA9_GJWdDoe7p5R0qAson945anztvGt2OGJ7hBmdXafrbxUMvecJrrE2CqYR_z5dK6BZOO5cu3kzTvmh1IzndP3o20X-ZETMWTI7w_bL9kpDp6b93qaauXdntEKVXSj0lgIyxMi8pF1p-KN_uB_hVUhcTqc_814u7W0fgswZz-oH375zi4P1JnBslA9osOdOt5znSZiyvH3RLQT4aGwxEPJaDsxlT8KAk590qIBA=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Galto, The Throwing Knives Joker",
@@ -4923,8 +5125,8 @@ export const cards: Card[] = [
     product: Product.ST04,
     rarity: Rarity.COMMON,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: true,
       northeast: false,
@@ -4938,7 +5140,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-014",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xX9SJlQzwiljD7VP4bvX3e4tkM6VSvBuJj81pQlEKGy6d-8okwPMIh5lDsMaEV-vamsTH7ldvY6zGouVLjcEMgWG3lac3dguSm2DXVdDrBBAd-iNkBcBP8YTHxzXZOM-b0fjDhAPjbMntoRpLOQVL87fNp8BRXcBAWSOfydwEZkUAjayW1wCk5U6VvPmNr5FjIMDioPJdCNFLxyVVS3jNjVHysTi6-VKJHub9WE9wb-USaHqPiKJTpj0tOdJ50rZ5hh7g=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Ruima, Master of Juggling Show",
@@ -4947,8 +5150,8 @@ export const cards: Card[] = [
     product: Product.ST04,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 10000.0,
+    attack: 3000,
+    defense: 10000,
     direction: {
       north: true,
       northeast: false,
@@ -4962,7 +5165,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-015",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWZ5ZeSSjdGh0XHeZtOaoQKmoqMoaVZ8DM5kcmFprdc09LzQ4GluZhnc4vL9vmjzgYCPrCMyfufbduZJ6w8J0YwWDdWXy8i__x92BxTPrIuyppvv2fpOdTeTXe4DwCooAdWS19shimqD07Jydwhe9fZW15e9QjY_zTdTYYeqNTEy0gtyzzpc9zAOdN_dseleBGJ7smVd4UAUFAFbKwGtoMb6Dw1xgR1wdG-zuvosTKZPbrsTePSCoV72J4g4-2nUHhzww=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Silver Coat Liger",
@@ -4971,8 +5175,8 @@ export const cards: Card[] = [
     product: Product.ST04,
     rarity: Rarity.COMMON,
     nano: 3,
-    attack: 3000.0,
-    defense: 11000.0,
+    attack: 3000,
+    defense: 11000,
     direction: {
       north: true,
       northeast: true,
@@ -4986,7 +5190,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-016",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUVCOfsBmBhc-mw2kBtbdv36CCnH2TxrsL2rAJV3hug0vbdRaOoswRycFne8rKCkJES0VWfRAsuUjY19X98VIjBBEdkFOX9CrmPYXAuzvyljRzPpHbhGR7B2wbpLvc4TonyXPI5F21g8XqjK2tIg3wAWsF2O2erbzKZRsayI8595DeIbXUwCUOn47mGGy1wieOI--0blnS7TUs_otimmOA3FWfHljWwlQh6_Ak6WSUE21lzejx9y3Cv72IXllPlorMWyg=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.FOLLOWER,
     name: "Waliz, The Ropewalker",
@@ -4995,8 +5200,8 @@ export const cards: Card[] = [
     product: Product.ST04,
     rarity: Rarity.COMMON,
     nano: 2,
-    attack: 3000.0,
-    defense: 9000.0,
+    attack: 3000,
+    defense: 9000,
     direction: {
       north: true,
       northeast: true,
@@ -5010,7 +5215,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-017",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xW7S4WFtCFQwJVxEHvVtAdR_h8bhSbvjJUj7I547Y-kD66ZJfJrSnub25QF9GJdJ3nWEYgVoi8NXKVrkTgp_097VGskzJbrXDS7PHnA0paJnFFVrAp6eLP7Ms2Vxto21a617cqt1_C_C7F1Wnz8WqLl8xmn7ACwQkSDtIXm_E1hkJ36t2FM1__tKmX_8tBEmduo4iApmlozQjl842kTolYGzvEg6VX5jKku_eKVj6REFQiZZYagXYhJlhvp5ZDB9B1P_w=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.TECH,
     name: "Make Feel Ashamed",
@@ -5034,7 +5240,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-018",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xVkHKuQcvHOdMlUltqTBrHOauzfn3bG6iURqzSmLo4-CVo6VCmao_kfvIHVS53o4NvhuBlFWdnpnxr8PweMjzpfLNYtTFMbj23eeaF9X58yXK7uu-VS9JUOhr40cEUY6HQYQNRdxPmGpwuT3eGpBkO3DKrTC0xtMy1ERkQ-JOraDd12VjIWgp0iS0bws97NmjSmPiXuBRsF6dogadITEeADf1U6KHOeaoU8OKnwgktHh94M8iDwqJ73oYvlN3mHaZA-ew=s175-w110-h175",
     faction: Faction.ELYSIUM,
     type: CardType.TECH,
     name: "Seductive Beauty",
@@ -5059,7 +5266,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-019",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xWxnNIOfG-EwczLNYehe3J1zANfHOkqldhKhHU2Csq0nEFM13NXcoSwzG1rSzDr9f_6sd-g3glDQZSAlpur3SKBNLUWvH5dIJ0ddO9Gjuk_0e6WE0QCYgrBcHMFkaxM2jWWdj-rP3XEfS3lYEeODFpZ6i4XJ3Bcau6EQBnRJ5N17YWpxjPuo2w7zfaA8D7D1tEb2k3jOUBKj16kLsqqkz04z24QF59T6JVY0xYqGg0S2Wioty2-7nbzwe43erkxo5z9QQ=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.TECH,
     name: "Airborne Lovers",
@@ -5083,7 +5291,8 @@ export const cards: Card[] = [
   },
   {
     id: "ST04-020",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXcXTDOXndRCCmOHXjBTcZf2q3MsE9aVVlXysQZiDWTCRoLDgKvpV7FOWKHJQb9-PIbXBDYmjXOb9lhUpFii4P5FwD_gQhDAC-awhQZUjTlBmGtb4xPi0iKMZvAazzJLRAuxrZ1pQr8-OPEhESPun-fn3cGxq58eHrSA3j_NCrkUSfqCFNrjrZ_CkEq03KLPeIGP-hdX86ltnOYrOIdD9TzQwg-MOYC0at6rgmypF3fTkf5iKsfTXqPs2yt-f65w3Kh9w=s175-w110-h175",
     faction: Faction.NOMADIC,
     type: CardType.TECH,
     name: "Climax Ending",
@@ -5107,7 +5316,8 @@ export const cards: Card[] = [
   },
   {
     id: "PR-007",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xUdwOe7bM_3oyFu_HqAhI1mefZUiPs1aJdBgcZMv8FOUmGFi18pTdPOjDeWE6UuNyOBUb8bVSys-PCkAYepYV2YauIVdMYX49bo9qZajlLMCmYg7O_VjUxDL7OuvK2kyW1UY63fABM1yA7hHdBsjNnPUrQ13mC7nPApL3AcJ4_F7PZzhuiEWJdnqTTCLeMjzwOcm3jtUlUSEovBR9oyvfq6bUMjF69dHDp56ahVloAmy8Ntbfl8df7Ru8o68wWYJpVX5RrUH6214xJhq9bX9WF32xTPB9tp8ICgqyzP5rOHwOj1rrNE_b6hYkUdc6HO2M2udhwrVxp5xLTCj3ah_OfepT2nIZ-azCClkF6Qydj2dNYZGqoqNBC3HjAsbdGcfIJI92EcoZvA1cKhUF9ihQ=s220-w220-h220-s",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "Blossom, The Sound of Forest",
@@ -5116,8 +5326,8 @@ export const cards: Card[] = [
     product: Product.PR,
     rarity: Rarity.DARK_MATTER_RARE,
     nano: 0,
-    attack: 1000.0,
-    defense: 4000.0,
+    attack: 1000,
+    defense: 4000,
     direction: {
       north: false,
       northeast: true,
@@ -5131,7 +5341,8 @@ export const cards: Card[] = [
   },
   {
     id: "PR-004",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xU1Smgd3nvt5S5Vg_mu9jYCYug7yDy7umBqjDA1sqXUVryDPmWStrc9vfrKRc306Z1Tgptvkbq8ibvcqFqJHdtFbd7hXH8wF3z0kghnVcMeCpB3_Z3Acglp4GjtFui57rzHoZFJpEMUgngP00We6MlgVN1ofBrko2LFdVDbUZl_VMU0PaVcue6YI81daJtSZPspC6915ZnfmcMORWC2ldO-h2uHqjqhhjI3W96bp5oh-_x0BpEkokwCTlt7WCJfE47sKa67E-aXz1ySUa4dcZHqtHj_9IliYsWLPiFlmGiq9OytNKm8_S2an834GIthjn6ijX6SemC0id_7SL9Lb15IIYdVYY6Kwvs8yBqbcmQX3qJ8muA4O24KmFDZhVvfWGQ5bcvjN_i2uQP1h7E=s220-w220-h220-s",
     faction: Faction.SHAMBHALA,
     type: CardType.FOLLOWER,
     name: "White Rabbit",
@@ -5140,8 +5351,8 @@ export const cards: Card[] = [
     product: Product.PR,
     rarity: Rarity.MAJESTIC,
     nano: 1,
-    attack: 2000.0,
-    defense: 7000.0,
+    attack: 2000,
+    defense: 7000,
     direction: {
       north: false,
       northeast: false,
@@ -5155,7 +5366,8 @@ export const cards: Card[] = [
   },
   {
     id: "PR-005",
-    picture: "",
+    picture:
+      "https://lh3.googleusercontent.com/docsubipk/AP9E6xXx-HkHRCtn4L9TuYnrJA3a0afj-0ToANzgogKMpX6zxsGEPMcw5mrneEyI1qPNRuS_WNnN8ood_OHYh6i2R50i6cU3PBHH0kIc1FdD_vLotiovC_BBGM1jNT7w5imBLnAyzO_7vEe0x9UqMC_vrQokXLcu9SL4mv5SaH3MJtAVqQkdNxex0Ff-cw1I8satBNEmwPI4cvFKWIa68rF7huPciLL2oMkRN8NWhQsR_wTHD6FSUKZfm-13scmaST4C3We5fDneCh7c8nRaGtyksx30YXs5iyqUbkrCLQoTlBYV7ro2edYS8lL6U30F2skPuo5hzsRsov19FRuH9P50CUWzPMJFxtpTcjttvjVH40SbBaHvmPP1GfdyPRXie8UVJqQSQa-pW90z1JiH0TfLUQ=s220-w220-h220-s",
     faction: Faction.XUMERIAN,
     type: CardType.FOLLOWER,
     name: "Cleaning Bot",
@@ -5164,8 +5376,8 @@ export const cards: Card[] = [
     product: Product.PR,
     rarity: Rarity.MAJESTIC,
     nano: 1,
-    attack: 3000.0,
-    defense: 7000.0,
+    attack: 3000,
+    defense: 7000,
     direction: {
       north: true,
       northeast: false,
