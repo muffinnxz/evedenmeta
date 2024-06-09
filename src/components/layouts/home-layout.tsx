@@ -7,6 +7,8 @@ import { UserAccountNav } from "../user-account-nav";
 import useUser from "@/hooks/use-user";
 import { useRouter } from "@/lib/router-events";
 import ChangeThemeButton from "../change-theme-button";
+import Image from "next/image";
+import { TypographySmall } from "../ui/typography";
 
 export const mainNavItems = [
   {
@@ -31,8 +33,18 @@ export default function HomeLayout({ children }: LayoutProps) {
             <ChangeThemeButton />
             {!user && (
               <nav>
-                <Button className="px-4" onClick={signIn}>
-                  Login
+                <Button
+                  className="px-4 flex items-center gap-2"
+                  onClick={signIn}
+                >
+                  <Image
+                    src="/google.svg"
+                    alt="Google Logo"
+                    width={20}
+                    height={20}
+                    className="invert"
+                  />
+                  <TypographySmall>Continue with Google</TypographySmall>
                 </Button>
               </nav>
             )}
