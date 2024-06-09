@@ -9,9 +9,7 @@ export const cards: Card[] = [
     type: CardType.CHAMPION,
     name: "Lancelot",
     trait: "Brawler",
-    ability: `<Pre-Requisite> เรามีการ์ดในมือ 7 ใบหรือมากกว่า
-  
-  เมื่อการ์ดใบนี้เข้าสู่สนาม เลือกตัวละครฝ่ายตรงข้าม 1 ใบ; เคลื่อนย้ายตัวละครเป้าหมายมาติดกับการ์ดใบนี้`,
+    ability: `<Pre-Requisite> เรามีการ์ดในมือ 7 ใบหรือมากกว่า เมื่อการ์ดใบนี้เข้าสู่สนาม เลือกตัวละครฝ่ายตรงข้าม 1 ใบ; เคลื่อนย้ายตัวละครเป้าหมายมาติดกับการ์ดใบนี้`,
     product: Product.ST01,
     rarity: Rarity.RARE,
     nano: 3,
@@ -513,9 +511,7 @@ export const cards: Card[] = [
     type: CardType.CHAMPION,
     name: "Leviathan",
     trait: "Aberration",
-    ability: `<Pre-Requisite> เรามีการ์ดในกองทิ้ง 7 ใบหรือมากกว่า
-  
-  เมื่อการ์ดในนี้เข้าสู่สนาม เลือก Follower ฝ่ายตรงข้าม 1 ใบ; นำตัวละครเป้าหมายไปยังกองทิ้ง`,
+    ability: `<Pre-Requisite> เรามีการ์ดในกองทิ้ง 7 ใบหรือมากกว่า เมื่อการ์ดในนี้เข้าสู่สนาม เลือก Follower ฝ่ายตรงข้าม 1 ใบ; นำตัวละครเป้าหมายไปยังกองทิ้ง`,
     product: Product.ST02,
     rarity: Rarity.RARE,
     nano: 3,
@@ -1016,9 +1012,7 @@ export const cards: Card[] = [
     type: CardType.CHAMPION,
     name: "Aravind",
     trait: "",
-    ability: `<Pre-Requisite> มีการ์ด Follower ฝ่ายเราในสนาม 2 ใบหรือมากกว่า
-  
-  Reinforce
+    ability: `<Pre-Requisite> มีการ์ด Follower ฝ่ายเราในสนาม 2 ใบหรือมากกว่า Reinforce
   (1/เทิร์น) เมื่อตัวละครฝ่ายเราใบอื่นเข้าสู่สนาม; การ์ดใบนี้ได้รับ ATK 2000 จนจบเทิร์น`,
     product: Product.ST03,
     rarity: Rarity.RARE,
@@ -1522,9 +1516,7 @@ export const cards: Card[] = [
     type: CardType.CHAMPION,
     name: "Leviathan",
     trait: "Aberration",
-    ability: `<Pre-Requisite> เรามีการ์ดในกองทิ้ง 7 ใบหรือมากกว่า
-  
-  เมื่อการ์ดในนี้เข้าสู่สนาม เลือก Follower ฝ่ายตรงข้าม 1 ใบ; นำตัวละครเป้าหมายไปยังกองทิ้ง`,
+    ability: `<Pre-Requisite> เรามีการ์ดในกองทิ้ง 7 ใบหรือมากกว่า เมื่อการ์ดในนี้เข้าสู่สนาม เลือก Follower ฝ่ายตรงข้าม 1 ใบ; นำตัวละครเป้าหมายไปยังกองทิ้ง`,
     product: Product.BT01,
     rarity: Rarity.GENESIS_RARE,
     nano: 3,
@@ -2028,9 +2020,7 @@ export const cards: Card[] = [
     type: CardType.CHAMPION,
     name: "Lancelot",
     trait: "Brawler",
-    ability: `<Pre-Requisite> เรามีการ์ดในมือ 7 ใบหรือมากกว่า
-  
-  เมื่อการ์ดใบนี้เข้าสู่สนาม เลือกตัวละครฝ่ายตรงข้าม 1 ใบ; เคลื่อนย้ายตัวละครเป้าหมายมาติดกับการ์ดใบนี้`,
+    ability: `<Pre-Requisite> เรามีการ์ดในมือ 7 ใบหรือมากกว่า เมื่อการ์ดใบนี้เข้าสู่สนาม เลือกตัวละครฝ่ายตรงข้าม 1 ใบ; เคลื่อนย้ายตัวละครเป้าหมายมาติดกับการ์ดใบนี้`,
     product: Product.BT01,
     rarity: Rarity.GENESIS_RARE,
     nano: 3,
@@ -2055,9 +2045,7 @@ export const cards: Card[] = [
     type: CardType.CHAMPION,
     name: "Percival De Listenoise",
     trait: "Knight",
-    ability: `<Pre-Requisite> ความสามารถของการ์ดใบนี้แสดงผลได้บน Champion Zoner ด้วย
-  
-  Quantum
+    ability: `<Pre-Requisite> ความสามารถของการ์ดใบนี้แสดงผลได้บน Champion Zoner ด้วย Quantum
   เมื่อเราเล่นการ์ด Tech; การ์ดใบนี้ได้รับ ATK 2000 จนจบเทิร์น`,
     product: Product.BT01,
     rarity: Rarity.GENESIS_RARE,
@@ -2083,9 +2071,7 @@ export const cards: Card[] = [
     type: CardType.CHAMPION,
     name: "Percival De Listenoise",
     trait: "Knight",
-    ability: `<Pre-Requisite> ความสามารถของการ์ดใบนี้แสดงผลได้บน Champion Zoner ด้วย
-  
-  Quantum
+    ability: `<Pre-Requisite> ความสามารถของการ์ดใบนี้แสดงผลได้บน Champion Zoner ด้วย Quantum
   เมื่อเราเล่นการ์ด Tech; การ์ดใบนี้ได้รับ ATK 2000 จนจบเทิร์น`,
     product: Product.BT01,
     rarity: Rarity.RARE,
@@ -2615,9 +2601,7 @@ export const cards: Card[] = [
     type: CardType.CHAMPION,
     name: "Xerxes",
     trait: "",
-    ability: `<Pre-Requisite> ฝ่ายตรงข้ามเหลือการ์ดใน Sentinel 3 ใบหรือน้อยกว่า
-  
-  Range
+    ability: `<Pre-Requisite> ฝ่ายตรงข้ามเหลือการ์ดใน Sentinel 3 ใบหรือน้อยกว่า Range
   ตัวละครฝ่ายตรงข้ามได้รับความเสียหายจากความสามารถของการ์ดฝ่ายเราเพิ่มขึ้น 1000 หน่วย`,
     product: Product.BT01,
     rarity: Rarity.GENESIS_RARE,
@@ -2643,9 +2627,7 @@ export const cards: Card[] = [
     type: CardType.CHAMPION,
     name: "Xerxes",
     trait: "",
-    ability: `<Pre-Requisite> ฝ่ายตรงข้ามเหลือการ์ดใน Sentinel 3 ใบหรือน้อยกว่า
-  
-  Range
+    ability: `<Pre-Requisite> ฝ่ายตรงข้ามเหลือการ์ดใน Sentinel 3 ใบหรือน้อยกว่า Range
   ตัวละครฝ่ายตรงข้ามได้รับความเสียหายจากความสามารถของการ์ดฝ่ายเราเพิ่มขึ้น 1000 หน่วย`,
     product: Product.BT01,
     rarity: Rarity.RARE,
@@ -3180,9 +3162,7 @@ export const cards: Card[] = [
     type: CardType.CHAMPION,
     name: "Aravind",
     trait: "",
-    ability: `<Pre-Requisite> มีการ์ด Follower ฝ่ายเราในสนาม 2 ใบหรือมากกว่า
-  
-  Reinforce
+    ability: `<Pre-Requisite> มีการ์ด Follower ฝ่ายเราในสนาม 2 ใบหรือมากกว่า Reinforce
   (1/เทิร์น) เมื่อตัวละครฝ่ายเราใบอื่นเข้าสู่สนาม; การ์ดใบนี้ได้รับ ATK 2000 จนจบเทิร์น`,
     product: Product.BT01,
     rarity: Rarity.GENESIS_RARE,
@@ -3686,9 +3666,7 @@ export const cards: Card[] = [
     type: CardType.CHAMPION,
     name: "Ada Lovelace",
     trait: "",
-    ability: `<Pre-Requisite> มีการ์ด Follower ฝ่ายเราในสนาม 4 ใบหรือมากกว่า
-  
-  เมื่อการ์ดใบนี้เข้าสู่สนาม เลือกตัวละครฝ่ายเรา 1 ใบ; เคลื่อนย้ายตัวละครเป้าหมายมาติดกับการ์ดใบนี้
+    ability: `<Pre-Requisite> มีการ์ด Follower ฝ่ายเราในสนาม 4 ใบหรือมากกว่า เมื่อการ์ดใบนี้เข้าสู่สนาม เลือกตัวละครฝ่ายเรา 1 ใบ; เคลื่อนย้ายตัวละครเป้าหมายมาติดกับการ์ดใบนี้
   Upgrade ตัวละครฝ่ายเราใบอื่นได้รับ ATK 2000`,
     product: Product.BT01,
     rarity: Rarity.GENESIS_RARE,
@@ -3714,9 +3692,7 @@ export const cards: Card[] = [
     type: CardType.CHAMPION,
     name: "Ada Lovelace",
     trait: "",
-    ability: `<Pre-Requisite> มีการ์ด Follower ฝ่ายเราในสนาม 4 ใบหรือมากกว่า
-  
-  เมื่อการ์ดใบนี้เข้าสู่สนาม เลือกตัวละครฝ่ายเรา 1 ใบ; เคลื่อนย้ายตัวละครเป้าหมายมาติดกับการ์ดใบนี้
+    ability: `<Pre-Requisite> มีการ์ด Follower ฝ่ายเราในสนาม 4 ใบหรือมากกว่า เมื่อการ์ดใบนี้เข้าสู่สนาม เลือกตัวละครฝ่ายเรา 1 ใบ; เคลื่อนย้ายตัวละครเป้าหมายมาติดกับการ์ดใบนี้
   Upgrade ตัวละครฝ่ายเราใบอื่นได้รับ ATK 2000`,
     product: Product.BT01,
     rarity: Rarity.RARE,
@@ -4246,9 +4222,7 @@ export const cards: Card[] = [
     type: CardType.CHAMPION,
     name: "Sarena",
     trait: "",
-    ability: `<Pre-Requisite> เรามีการ์ดในกองทิ้ง 4 ใบหรือมากกว่า
-  
-  Experiment
+    ability: `<Pre-Requisite> เรามีการ์ดในกองทิ้ง 4 ใบหรือมากกว่า Experiment
   (1/เทิร์น) ในเทิร์นของเรา เมื่อการ์ด Follower ฝ่ายเราถูกนำไปยังกองทิ้งจากสนามหรือจากเด็ค; นำการ์ด Follower 1 ใบที่ถูกนำลงกองทิ้งจากวิธีดังกล่าวเข้าสู่สนาม`,
     product: Product.BT01,
     rarity: Rarity.GENESIS_RARE,
@@ -4274,9 +4248,7 @@ export const cards: Card[] = [
     type: CardType.CHAMPION,
     name: "Sarena",
     trait: "",
-    ability: `<Pre-Requisite> เรามีการ์ดในกองทิ้ง 4 ใบหรือมากกว่า
-  
-  Experiment
+    ability: `<Pre-Requisite> เรามีการ์ดในกองทิ้ง 4 ใบหรือมากกว่า Experiment
   (1/เทิร์น) ในเทิร์นของเรา เมื่อการ์ด Follower ฝ่ายเราถูกนำไปยังกองทิ้งจากสนามหรือจากเด็ค; นำการ์ด Follower 1 ใบที่ถูกนำลงกองทิ้งจากวิธีดังกล่าวเข้าสู่สนาม`,
     product: Product.BT01,
     rarity: Rarity.RARE,
@@ -4814,9 +4786,7 @@ export const cards: Card[] = [
     type: CardType.CHAMPION,
     name: "Anne Bonny & Mary Read",
     trait: "",
-    ability: `<Pre-Requisite> มีการเล่นการ์ด 2 ใบหรือมากกว่าในเทิร์นนี้
-  
-  Perform เลือกตัวละครฝ่ายเราใบอื่น 1 ใบ; ตัวละครเป้าหมายได้รับ ATK 4000 จนจบเทิร์น จากนั้นรีชาร์จ 1 Nano
+    ability: `<Pre-Requisite> มีการเล่นการ์ด 2 ใบหรือมากกว่าในเทิร์นนี้ Perform เลือกตัวละครฝ่ายเราใบอื่น 1 ใบ; ตัวละครเป้าหมายได้รับ ATK 4000 จนจบเทิร์น จากนั้นรีชาร์จ 1 Nano
   (1/เทิร์น) ในเทิร์นนี้ ถ้าเราเล่นการ์ด 2 ใบหรือมากกว่า; จั่วการ์ด 1 ใบจากนั้นการ์ดใบนี้ได้รับ ATK 2000 จนจบเทิร์น`,
     product: Product.ST04,
     rarity: Rarity.RARE,
