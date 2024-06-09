@@ -39,16 +39,7 @@ export function UserAccountNav({ user, userData }: UserAccountNavProps) {
         </div>
         <DropdownMenuSeparator />
         <DropdownMenuItem asChild>
-          <Link href="/dashboard">Flows</Link>
-        </DropdownMenuItem>
-        <DropdownMenuItem asChild>
-          <Link href="/dashboard/apps">Apps</Link>
-        </DropdownMenuItem>
-        <DropdownMenuItem asChild>
-          <Link href="/dashboard/billing">Billing</Link>
-        </DropdownMenuItem>
-        <DropdownMenuItem asChild>
-          <Link href="/dashboard/settings">Settings</Link>
+          <Link href="/settings">Settings</Link>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuItem className="cursor-pointer" onSelect={signOut}>
