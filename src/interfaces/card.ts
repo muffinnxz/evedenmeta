@@ -21,6 +21,8 @@ export enum Product {
   ST03 = "ST03",
   ST04 = "ST04",
   BT01 = "BT01",
+  PR = "PR",
+  WD = "WD",
 }
 
 export enum Rarity {
