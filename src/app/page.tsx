@@ -19,7 +19,7 @@ export default function Home() {
       <section className="space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32">
         <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
           <Link
-            href={""}
+            href={"https://discord.gg/6P9kNzjXyj"}
             className="rounded-2xl bg-muted px-4 py-1.5 text-sm font-medium"
             target="_blank"
           >
@@ -115,17 +115,17 @@ export default function Home() {
             Join Our Community
           </h2>
           <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-            Connect with fellow creators on our{" "}
+            Join fellow card game enthusiasts on our{" "}
             <Link
-              href={""}
+              href={"https://discord.gg/6P9kNzjXyj"}
               target="_blank"
               rel="noreferrer"
               className="underline underline-offset-4"
             >
               Discord server
             </Link>
-            . Share ideas, get support, and be part of the evolving world of AI
-            app development with aicreatorhub.io.
+            . Share strategies, seek advice, and become a part of our growing
+            community.
           </p>
         </div>
       </section>

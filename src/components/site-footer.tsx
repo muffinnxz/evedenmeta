@@ -12,7 +12,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
           <p className="text-center text-sm leading-loose md:text-left">
             Built by{" "}
             <a
-              href={"https://discord.gg/HcxABJSQPP"}
+              href={"https://discord.gg/6P9kNzjXyj"}
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
