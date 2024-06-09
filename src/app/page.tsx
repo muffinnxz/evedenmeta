@@ -2,14 +2,7 @@ import HomeLayout from "@/components/layouts/home-layout";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Link } from "@/lib/router-events";
-import {
-  BarChart4,
-  Component,
-  Library,
-  Rocket,
-  Shapes,
-  Users,
-} from "lucide-react";
+import { Shapes, Trophy, User } from "lucide-react";
 import { TypographySmall } from "@/components/ui/typography";
 import Image from "next/image";
 
@@ -76,7 +69,7 @@ export default function Home() {
           </div>
           <div className="relative overflow-hidden rounded-lg border bg-background p-2">
             <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-              <Library className="h-8 w-8" />
+              <Trophy className="h-8 w-8" />
               <div className="space-y-2">
                 <h3 className="font-bold">Tournament Play</h3>
                 <p className="text-sm">
@@ -89,7 +82,7 @@ export default function Home() {
           </div>
           <div className="relative overflow-hidden rounded-lg border bg-background p-2">
             <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-              <Rocket className="w-8 h-8" />
+              <User className="w-8 h-8" />
               <div className="space-y-2">
                 <h3 className="font-bold">Community Hub</h3>
                 <p className="text-sm text-muted-foreground">
