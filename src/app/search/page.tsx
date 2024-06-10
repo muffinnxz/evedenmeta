@@ -18,7 +18,7 @@ import {
   } from "@/components/ui/command"
 import { cards } from "@/constants/cards";
   
-export default function Home() {
+export default function Page() {
   return (
     <HomeLayout>
       <section className="space-y-6 pb-8 pt-6 md:pb-8 md:pt-10 lg:py-28">
